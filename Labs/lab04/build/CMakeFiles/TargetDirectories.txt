@@ -1,0 +1,3 @@
+/Users/mac/my mac/graphics.com391/Labs/lab04/build/CMakeFiles/aur.dir
+/Users/mac/my mac/graphics.com391/Labs/lab04/build/CMakeFiles/ALL_BUILD.dir
+/Users/mac/my mac/graphics.com391/Labs/lab04/build/CMakeFiles/ZERO_CHECK.dir

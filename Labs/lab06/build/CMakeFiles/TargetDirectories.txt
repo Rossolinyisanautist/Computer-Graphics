@@ -1,0 +1,7 @@
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/lightning_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/scene_graph_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/geometry_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/triangle_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/window_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/ALL_BUILD.dir
+/Users/mac/my mac/graphics.com391/Labs/lab06/build/CMakeFiles/ZERO_CHECK.dir

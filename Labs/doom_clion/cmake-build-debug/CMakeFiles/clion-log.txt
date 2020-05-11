@@ -1,0 +1,141 @@
+conan install "/Users/mac/my mac/graphics.com391/Labs/doom_clion" "-if=/Users/mac/my mac/graphics.com391/Labs/doom_clion/cmake-build-debug" -pr=default --build sdl2_image
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=apple-clang
+compiler.libcxx=libc++
+compiler.version=11.0
+os=Macos
+os_build=Macos
+[options]
+[build_requires]
+[env]
+
+sdl2_image/2.0.5@bincrafters/stable: Forced build from source
+conanfile.txt: Installing package
+Requirements
+    glew/2.1.0@bincrafters/stable from 'conan-center' - Cache
+    glm/0.9.9.5@g-truc/stable from 'conan-center' - Cache
+    imgui/1.75 from 'conan-center' - Cache
+    libiconv/1.15 from 'conan-center' - Cache
+    libjpeg/9c from 'conan-center' - Cache
+    libpng/1.6.37 from 'conan-center' - Cache
+    libwebp/1.0.3 from 'conan-center' - Cache
+    sdl2/2.0.10@bincrafters/stable from 'bincrafters' - Cache
+    sdl2_image/2.0.5@bincrafters/stable from 'bincrafters' - Cache
+    zlib/1.2.11 from 'conan-center' - Cache
+Packages
+    glew/2.1.0@bincrafters/stable:8e2e3059f283d3d138b85d022534c5632c4ffd1b - Cache
+    glm/0.9.9.5@g-truc/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    imgui/1.75:eec6acc43f6348a597c20e5bd28d9e0590a02597 - Cache
+    libiconv/1.15:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+    libjpeg/9c:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+    libpng/1.6.37:eb50d18a5a5d59bd0c332464a4c348ab65e353bf - Cache
+    libwebp/1.0.3:925627bb9faa4169b8ec3d0d66343ea8295547e5 - Cache
+    sdl2/2.0.10@bincrafters/stable:f616f9b5a0baa5206386ecbf818542a65bd9a834 - Cache
+    sdl2_image/2.0.5@bincrafters/stable:8fb2a35f7d886821887948171de0711fa428c281 - Build
+    zlib/1.2.11:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+
+glew/2.1.0@bincrafters/stable: Already installed!
+glm/0.9.9.5@g-truc/stable: Already installed!
+imgui/1.75: Already installed!
+libiconv/1.15: Already installed!
+libiconv/1.15: Appending PATH environment var: /Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/bin
+libjpeg/9c: Already installed!
+libwebp/1.0.3: Already installed!
+zlib/1.2.11: Already installed!
+libpng/1.6.37: Already installed!
+sdl2/2.0.10@bincrafters/stable: Already installed!
+sdl2/2.0.10@bincrafters/stable: Creating SDL2_CONFIG environment variable: /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/bin/sdl2-config
+sdl2/2.0.10@bincrafters/stable: Creating SDL_CONFIG environment variable: /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/bin/sdl2-config
+sdl2_image/2.0.5@bincrafters/stable: Copying sources to build folder
+sdl2_image/2.0.5@bincrafters/stable: Building your package in /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/build/8fb2a35f7d886821887948171de0711fa428c281
+sdl2_image/2.0.5@bincrafters/stable: Generator cmake created conanbuildinfo.cmake
+sdl2_image/2.0.5@bincrafters/stable: Calling build()
+-- The C compiler identification is AppleClang 11.0.0.11000033
+-- The CXX compiler identification is AppleClang 11.0.0.11000033
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Conan: called by CMake conan helper
+-- Conan: called inside local cache
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Conan: Adjusting fPIC flag (ON)
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_DATAROOTDIR
+    CMAKE_INSTALL_INCLUDEDIR
+    CMAKE_INSTALL_LIBDIR
+    CMAKE_INSTALL_LIBEXECDIR
+    CMAKE_INSTALL_OLDINCLUDEDIR
+    CMAKE_INSTALL_SBINDIR
+    TIF_DYNAMIC
+
+
+-- Build files have been written to: /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/build/8fb2a35f7d886821887948171de0711fa428c281/build
+Scanning dependencies of target SDL2_image
+[ 18%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG.c.o
+[ 18%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_bmp.c.o
+[ 18%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_jpg.c.o
+[ 25%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_gif.c.o
+[ 31%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_lbm.c.o
+[ 37%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_pcx.c.o
+[ 43%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_png.c.o
+[ 50%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_pnm.c.o
+[ 56%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_svg.c.o
+[ 62%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_tga.c.o
+[ 68%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_tif.c.o
+[ 75%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_xcf.c.o
+[ 81%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_xpm.c.o
+[ 87%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_xv.c.o
+[ 93%] Building C object CMakeFiles/SDL2_image.dir/source_subfolder/IMG_webp.c.o
+[100%] Linking C static library lib/libSDL2_image.a
+[100%] Built target SDL2_image
+[100%] Built target SDL2_image
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/lib/libSDL2_image.a
+-- Installing: /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2/SDL_image.h
+sdl2_image/2.0.5@bincrafters/stable: Package '8fb2a35f7d886821887948171de0711fa428c281' built
+sdl2_image/2.0.5@bincrafters/stable: Build folder /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/build/8fb2a35f7d886821887948171de0711fa428c281
+sdl2_image/2.0.5@bincrafters/stable: Generated conaninfo.txt
+sdl2_image/2.0.5@bincrafters/stable: Generated conanbuildinfo.txt
+sdl2_image/2.0.5@bincrafters/stable: Generating the package
+sdl2_image/2.0.5@bincrafters/stable: Package folder /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281
+sdl2_image/2.0.5@bincrafters/stable: Calling package()
+sdl2_image/2.0.5@bincrafters/stable package(): Packaged 1 '.h' file: SDL_image.h
+sdl2_image/2.0.5@bincrafters/stable package(): Packaged 1 '.a' file: libSDL2_image.a
+sdl2_image/2.0.5@bincrafters/stable: Package '8fb2a35f7d886821887948171de0711fa428c281' created
+sdl2_image/2.0.5@bincrafters/stable: Created package revision 0b73f52650ee65ae23b73143e9286546
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/mac/my mac/graphics.com391/Labs/doom_clion"
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /Users/mac/my mac/graphics.com391/Labs/doom_clion/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mac/my mac/graphics.com391/Labs/doom_clion/cmake-build-debug

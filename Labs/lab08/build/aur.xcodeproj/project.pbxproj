@@ -1,0 +1,1315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9D2C6C3AA07B44FEB33F6AD0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6FBD94D6DA6844F891B4F5F0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				9A8B445322B3448D9A3C70E7 /* CMake Rules */,
+			);
+			dependencies = (
+				66B71F09DFEC444CBAD03C3E /* PBXTargetDependency */,
+				3AF319005394467EAE154A04 /* PBXTargetDependency */,
+				6AFA3FE306404107A9E24FB1 /* PBXTargetDependency */,
+				3F3A99FD47C94E509F440466 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		EE5283FAE71342649B9177D0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BCE7FC324C9F4BCAA076C5F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				44B2FDDE243B4F5C8A2CE254 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		000CE4888CC24F8F8343F47D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */ = {isa = PBXBuildFile; fileRef = EC4192DD00D04E0ABE95BF8C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */; };
+		011F94BE7DC94A3F9671C27B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */ = {isa = PBXBuildFile; fileRef = 142CF911753C4310B865057A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */; };
+		01E49A28A4A346FCB71166BF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */ = {isa = PBXBuildFile; fileRef = A46B43FF42304B2D8210C6C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */; };
+		04031637CB6C4861BD762804 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */ = {isa = PBXBuildFile; fileRef = 861CA03AAE0E4737940363C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */; };
+		05BDD28EBEEA449C824ECEFD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */ = {isa = PBXBuildFile; fileRef = 3149CE3419264391A42FB651 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */; };
+		073ACB56B1264DBAAB7F7361 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */ = {isa = PBXBuildFile; fileRef = CED0ED5F41864362A0C6E913 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */; };
+		07DB05CF4351449E917E50EA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */ = {isa = PBXBuildFile; fileRef = A93EAE3A821F4A83A0D0073A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */; };
+		0D37C55A34DB45E0A27F5D8A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */ = {isa = PBXBuildFile; fileRef = 4339DADA316C4873AC74B5AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */; };
+		0F51A81912274E14A451DF60 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 06D6BA7931BC43C2A5990590 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */; };
+		106C75F080E94E51ACBB8A87 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */ = {isa = PBXBuildFile; fileRef = 8FF94277811844EC95463A08 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */; };
+		11599EA84F394A959366FC14 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */ = {isa = PBXBuildFile; fileRef = 270D58373B97414F89C8CA98 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */; };
+		117BCBD6A6FB45D488E96333 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */ = {isa = PBXBuildFile; fileRef = 2EC700DAB253458C966018DD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */; };
+		124DD80BEF64423EBD3C3F83 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */ = {isa = PBXBuildFile; fileRef = B7ED42A83EDD4EA9887F788B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */; };
+		198EDB32CA0C41BF9E73A61E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */ = {isa = PBXBuildFile; fileRef = 0165A48A4A3E4C3CA840EAED /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */; };
+		1C04E0FDB0B144EE9AD408EF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */ = {isa = PBXBuildFile; fileRef = B4C04D1BDD4947F08730B023 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */; };
+		238C3CD43172469ABFB62ECC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */ = {isa = PBXBuildFile; fileRef = F34AC810AE604D7ABCAF73F0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */; };
+		23F8FEA91A99498D8AC6757C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */ = {isa = PBXBuildFile; fileRef = FA2127BEE7444F8AB529A199 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */; };
+		2FA595F5C44C42D99465A061 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */ = {isa = PBXBuildFile; fileRef = 0564A1E93A37435FAB7C375D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */; };
+		3176DAFAD478478589BE4A14 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */ = {isa = PBXBuildFile; fileRef = 0532F53F09E54091B9E981A0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */; };
+		31E4E9E351624C6B909F9F1D /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/textured_plane_test.cpp */ = {isa = PBXBuildFile; fileRef = 35580B976D24492A9A2EE551 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/textured_plane_test.cpp */; };
+		339BCBFC5157421F88940B35 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */ = {isa = PBXBuildFile; fileRef = 79231B0EC0A74076A96C4D61 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */; };
+		33E238B447C04715ADA0A877 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */ = {isa = PBXBuildFile; fileRef = 3E6130B7F7054EBC83BBED83 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */; };
+		3ADE0728C98D4D2085DBBC68 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */ = {isa = PBXBuildFile; fileRef = 7B0D4F8C79064032B8151795 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */; };
+		3B1FAC4F288B405D894C9816 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */ = {isa = PBXBuildFile; fileRef = 6B3BE8A11AD04821B7AD6806 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */; };
+		3FB7840954154647AC82CA94 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */ = {isa = PBXBuildFile; fileRef = 38B8927912DC4CDC97F18960 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */; };
+		4072A56F677C4323ADBB92CE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */ = {isa = PBXBuildFile; fileRef = 292458E61AD047A18A89B4D0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */; };
+		46586D10ABA84B4DA26C2179 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */ = {isa = PBXBuildFile; fileRef = 571334EA310C4861B66E04A5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */; };
+		470E1E0893294B39B43AF480 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */ = {isa = PBXBuildFile; fileRef = 20EE00448C474910BA79AC3C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */; };
+		473AA481738D44D6AAE2FBF1 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */ = {isa = PBXBuildFile; fileRef = A80AF79339644FFC882AC5EF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */; };
+		48D84339E2324BF6A77A7EF5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */ = {isa = PBXBuildFile; fileRef = 1813372E3CBA42F5B6A4B143 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */; };
+		4EE049B0E1D14F2A9F671862 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */ = {isa = PBXBuildFile; fileRef = 938301B0B15C4D9DAE70B685 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */; };
+		517CB848296847FB87D1DD01 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 6B08F03B69644DE09853BD1D /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */; };
+		531B782A8D8F4310B69BD747 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */ = {isa = PBXBuildFile; fileRef = 5C4B1D45A0284439A66488A6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */; };
+		54E9E83F870B41BA858C4224 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */ = {isa = PBXBuildFile; fileRef = D7B50B76348D493D8D660B21 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */; };
+		58785E5814CD4FEF84760659 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */ = {isa = PBXBuildFile; fileRef = A3908919FAB44472B4CB9947 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */; };
+		7013A234097C4743A741EA40 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */ = {isa = PBXBuildFile; fileRef = 6480B309E7414925833FF3FD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */; };
+		72D0F0361E91456A818C58B3 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */ = {isa = PBXBuildFile; fileRef = F6C4A1F9796B4A11A078B6D4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */; };
+		74EB009EE837475A8B6004C6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */ = {isa = PBXBuildFile; fileRef = E792698E8737433D849DD301 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */; };
+		770757C2A87F47B3AA1CF180 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */ = {isa = PBXBuildFile; fileRef = C17D7DA393904D778DB186E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */; };
+		7C116379F8284B5EA5EA0655 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */ = {isa = PBXBuildFile; fileRef = C5AAB9B81C174C2E9139F4B5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */; };
+		7D85D2149A384B7FBECAC6B3 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */ = {isa = PBXBuildFile; fileRef = 1429C824C19747FE8F3095A5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */; };
+		7E0F6F8E11A048AEB361DF8F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */ = {isa = PBXBuildFile; fileRef = B90F25DC22E84D7BBABB2FB7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */; };
+		7F544739535E441F856F91C4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */ = {isa = PBXBuildFile; fileRef = FFDC2256FB354C8594AC8F67 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */; };
+		7FCBFDA42E084305A2AA919B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */ = {isa = PBXBuildFile; fileRef = 8F84ED3BB2894929A5A4E7C5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */; };
+		7FF5B57CE7924E99B3AE3C0B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */ = {isa = PBXBuildFile; fileRef = D8AB9CDBDEB747D48B517C07 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */; };
+		835FF61305CF4EB98EC9E2DE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */ = {isa = PBXBuildFile; fileRef = FD942816A7924D5E8ED45303 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */; };
+		85FDF402719844478F587F43 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */ = {isa = PBXBuildFile; fileRef = 7754A83F5FB645889C817C34 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */; };
+		86A608767A1845BC8B51EA18 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */ = {isa = PBXBuildFile; fileRef = 08A98722C2364F5FAC96489E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */; };
+		8843A2FBCD334232918F3919 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */ = {isa = PBXBuildFile; fileRef = 937D2DAFAA0244C0A37386C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */; };
+		89F151600FB845BBAD42EA1E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */ = {isa = PBXBuildFile; fileRef = A31CD14280A749A19578C110 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */; };
+		8BEDF4F40FF0434E8A901158 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */ = {isa = PBXBuildFile; fileRef = 44011DED84CD4B39879852E6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */; };
+		8CAFBA85077D4ADF83AABCC2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */ = {isa = PBXBuildFile; fileRef = 49D9894E763D4E878DF4F57F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */; };
+		8FFFC01A1E62450BA1F42733 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */ = {isa = PBXBuildFile; fileRef = 0E1E64286A3E4AA0AB9CA2CE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */; };
+		907CA0D2950540E6802820F6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */ = {isa = PBXBuildFile; fileRef = 1AAE03D44C004BA3BD15FBA8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */; };
+		933FC70E6C0C45788623A08E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */ = {isa = PBXBuildFile; fileRef = 8ACCC115ABA14D629E51C07E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */; };
+		95359ACD01D8490FBFE36C5A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */ = {isa = PBXBuildFile; fileRef = 9CA9ED04399B4282B96B90F3 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */; };
+		97F665088464428EA3281755 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */ = {isa = PBXBuildFile; fileRef = BBBC7667DB1F479592C6812B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */; };
+		9DE906981AA04645B98D841A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */ = {isa = PBXBuildFile; fileRef = 13F517794E2D4DCDA0D689AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */; };
+		A1206B88BDB94FF59C622315 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */ = {isa = PBXBuildFile; fileRef = 1DDA12A5E36D49008A55A356 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */; };
+		A530229857D148449B7D4442 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */ = {isa = PBXBuildFile; fileRef = 89930283E368414D8880CBC8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */; };
+		A93A64FE7DED4940B52EB190 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */ = {isa = PBXBuildFile; fileRef = 917444ADC61442C181EF9672 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */; };
+		A980C5E30250463BBEBF14D2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */ = {isa = PBXBuildFile; fileRef = 30939F6E675B49F4B663B27B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */; };
+		A9B50B5F8D404A478C4632B2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */ = {isa = PBXBuildFile; fileRef = 6DBDB39941C548338DBB02A8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */; };
+		AB6FAA45366540B1AB176158 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */ = {isa = PBXBuildFile; fileRef = 189E69807E1A402C875A440C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */; };
+		AC5E2A2B0784401D97306D4D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */ = {isa = PBXBuildFile; fileRef = 1058B1C8EFBA49C2A42FEFCE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */; };
+		AEF72346467F41B3A2732B76 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */ = {isa = PBXBuildFile; fileRef = 14C70499CBFB41E7B854EA30 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */; };
+		B118404B56A34294B528F7A7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */ = {isa = PBXBuildFile; fileRef = ECB5C15E7B974B3285F837EC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */; };
+		B3A3E09D6D134495AFFD85B1 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */ = {isa = PBXBuildFile; fileRef = E4802FA844DC4EC48C27312A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */; };
+		B79F8F6CB43B4525A9660D0F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */ = {isa = PBXBuildFile; fileRef = 134E73EE478442DA99111818 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */; };
+		B7E031E7C8CE46048D62B49C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */ = {isa = PBXBuildFile; fileRef = D1A378F6A4434064B82FD3EE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */; };
+		BD27CCDC62984B8CA8DA75DA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */ = {isa = PBXBuildFile; fileRef = 489A170675954FA29FC1F2A7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */; };
+		C72BD0B6F4C14EA08DF193A8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */ = {isa = PBXBuildFile; fileRef = 80871CFE06614C4BB463812A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */; };
+		CC6213B69B29412F96C6EF47 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */ = {isa = PBXBuildFile; fileRef = 3ECDE3BEAF09481AAF137DD8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */; };
+		CEACB795681B45B68298AB6F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */ = {isa = PBXBuildFile; fileRef = 5B102A7A34F34BC1B857EEA6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */; };
+		D0DB89F2B889499880110840 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */ = {isa = PBXBuildFile; fileRef = 3ADDF3EDAF7E4F11A02C45EE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */; };
+		D1F8545C124041AA828E0831 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */ = {isa = PBXBuildFile; fileRef = 86C45A478BA64BFB8ADC8CBC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */; };
+		D2BDCF8E6C324C05977394AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */ = {isa = PBXBuildFile; fileRef = 2CCEBC8D729E40988EF9386E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */; };
+		D7C8B99D6294497BBD1337B0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */ = {isa = PBXBuildFile; fileRef = C84638E3E1B34BDB8690E3E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */; };
+		DC08EFCBAE384102934A64C4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */ = {isa = PBXBuildFile; fileRef = A7528518D5A34E9CA79D781B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */; };
+		DE3E5EF23DF644E2ABC12675 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */ = {isa = PBXBuildFile; fileRef = 0A5CEDE26F644DFCB0C9596D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */; };
+		E121F39C2ADB443E93803983 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */ = {isa = PBXBuildFile; fileRef = 42425EC1D46D4B708A638D9C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */; };
+		E143E3091B44489C9C8DE5D6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */ = {isa = PBXBuildFile; fileRef = F50FEE3A1B294FCC8EA4774E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */; };
+		E16C4547C72E497A91D94CE7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */ = {isa = PBXBuildFile; fileRef = 331CD5CAECC84EEC949A123F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */; };
+		E1B232B3BAFD4D78A8392245 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */ = {isa = PBXBuildFile; fileRef = 24434DCF8B6D4EA48A279808 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */; };
+		E2908D7C8DB741168DE2F0A2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/material_properties_test.cpp */ = {isa = PBXBuildFile; fileRef = 56B28ABF37954B8FB86041E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/material_properties_test.cpp */; };
+		E738D75B243844B1A20A76E8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */ = {isa = PBXBuildFile; fileRef = 8048D7D20ECA463CAB035940 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */; };
+		E7DFA65255BC4CCFAF360712 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */ = {isa = PBXBuildFile; fileRef = 769AD76E3C11490FA8F32E88 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */; };
+		E850DFBE0A594DFB82EBABF3 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */ = {isa = PBXBuildFile; fileRef = 54E75D744EEC4462BE06FB29 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */; };
+		E876A69F15BF4E10A8B4B34C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */ = {isa = PBXBuildFile; fileRef = 05F6AA2D13854A87A52AC503 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */; };
+		ECDFC07C10D942BCBE15ABCD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */ = {isa = PBXBuildFile; fileRef = 9E9CB343E8264A498C6E95AC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */; };
+		ED2516825EBA4C2EBC146CB5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D026B781659C454D89EC5534 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */; };
+		EDB9593871344258849FED7E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */ = {isa = PBXBuildFile; fileRef = BF703AB1FDCA446E999EEDEF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */; };
+		F63507C02FBD4F34AA02F62F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */ = {isa = PBXBuildFile; fileRef = D28576DEE58C4C3A8E82FE49 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */; };
+		F8CE04BA01EC41D69CEA61D6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */ = {isa = PBXBuildFile; fileRef = B6C39ED1182A415C8021690E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */; };
+		FF72DB4C13914CE5899DF756 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */ = {isa = PBXBuildFile; fileRef = 358187832C614805851EF43D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */; };
+		FFDFAFB3C4AF44E79216FE2A /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/window_test.cpp */ = {isa = PBXBuildFile; fileRef = 489B88DB2BF742B7A4088482 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/window_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		064768FA99A841C99C928307 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		5D5D704C1349451F84178A14 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8AEC515EF54A405DADAFA314 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		941796A6BD8E4C1994B85D52 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		00FFB335E76441B980CBCCB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5283FAE71342649B9177D0;
+			remoteInfo = ZERO_CHECK;
+		};
+		0F38C17233B64440B2E4B270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36843C49E0B84668BD060512;
+			remoteInfo = window_test;
+		};
+		1837F7AA50AA48CDB6AEC8C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5283FAE71342649B9177D0;
+			remoteInfo = ZERO_CHECK;
+		};
+		261E662322114B73AEB2D6F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5283FAE71342649B9177D0;
+			remoteInfo = ZERO_CHECK;
+		};
+		496906E838CD4F3FB24CA8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E39A721BCD2E42899B9B8F4C;
+			remoteInfo = material_properties_test;
+		};
+		7129B2756BC144CE84141587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65F9CB4A21244DA7B3C81C63;
+			remoteInfo = textured_plane_test;
+		};
+		73E0120FC8574AE5B1F6E5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D529449CAE45B19FCC3742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE5283FAE71342649B9177D0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0165A48A4A3E4C3CA840EAED /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = renderer.hpp; path = include/renderer/renderer.hpp; sourceTree = SOURCE_ROOT; };
+		0532F53F09E54091B9E981A0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = phong_material.hpp; path = include/materials/phong_material.hpp; sourceTree = SOURCE_ROOT; };
+		0564A1E93A37435FAB7C375D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_renderer.hpp; path = include/renderer/es2_renderer.hpp; sourceTree = SOURCE_ROOT; };
+		05F6AA2D13854A87A52AC503 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = texture.hpp; path = include/textures/texture.hpp; sourceTree = SOURCE_ROOT; };
+		06D6BA7931BC43C2A5990590 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		08A98722C2364F5FAC96489E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = phong_material.hpp; path = include/materials/phong_material.hpp; sourceTree = SOURCE_ROOT; };
+		0A5CEDE26F644DFCB0C9596D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utilities.hpp; path = include/utilities/utilities.hpp; sourceTree = SOURCE_ROOT; };
+		0E1E64286A3E4AA0AB9CA2CE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = window.hpp; path = include/window/window.hpp; sourceTree = SOURCE_ROOT; };
+		1058B1C8EFBA49C2A42FEFCE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ambient_light.hpp; path = include/lights/ambient_light.hpp; sourceTree = SOURCE_ROOT; };
+		134E73EE478442DA99111818 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_opengl.h; path = include/vendor/imgui_impl_opengl.h; sourceTree = SOURCE_ROOT; };
+		13F517794E2D4DCDA0D689AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = material.hpp; path = include/materials/material.hpp; sourceTree = SOURCE_ROOT; };
+		1429C824C19747FE8F3095A5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constant_material.hpp; path = include/materials/constant_material.hpp; sourceTree = SOURCE_ROOT; };
+		142CF911753C4310B865057A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = point_light.hpp; path = include/lights/point_light.hpp; sourceTree = SOURCE_ROOT; };
+		14C70499CBFB41E7B854EA30 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometry.hpp; path = include/geometries/geometry.hpp; sourceTree = SOURCE_ROOT; };
+		1813372E3CBA42F5B6A4B143 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shader.hpp; path = include/renderer/shader.hpp; sourceTree = SOURCE_ROOT; };
+		189E69807E1A402C875A440C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_constant_material.hpp; path = include/materials/es2_constant_material.hpp; sourceTree = SOURCE_ROOT; };
+		1AAE03D44C004BA3BD15FBA8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_geometry.hpp; path = include/geometries/es2_geometry.hpp; sourceTree = SOURCE_ROOT; };
+		1DDA12A5E36D49008A55A356 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_texture.hpp; path = include/textures/es2_texture.hpp; sourceTree = SOURCE_ROOT; };
+		20EE00448C474910BA79AC3C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constant_material.hpp; path = include/materials/constant_material.hpp; sourceTree = SOURCE_ROOT; };
+		24434DCF8B6D4EA48A279808 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = directional_light.hpp; path = include/lights/directional_light.hpp; sourceTree = SOURCE_ROOT; };
+		270D58373B97414F89C8CA98 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = spot_light.hpp; path = include/lights/spot_light.hpp; sourceTree = SOURCE_ROOT; };
+		2885F19AC9A34EC49F340E62 /* material_properties_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = material_properties_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		292458E61AD047A18A89B4D0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = renderer.hpp; path = include/renderer/renderer.hpp; sourceTree = SOURCE_ROOT; };
+		2CCEBC8D729E40988EF9386E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/objects/camera.hpp; sourceTree = SOURCE_ROOT; };
+		2EC700DAB253458C966018DD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = directional_light.hpp; path = include/lights/directional_light.hpp; sourceTree = SOURCE_ROOT; };
+		30939F6E675B49F4B663B27B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scene.hpp; path = include/scene/scene.hpp; sourceTree = SOURCE_ROOT; };
+		3149CE3419264391A42FB651 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_shader.hpp; path = include/renderer/es2_shader.hpp; sourceTree = SOURCE_ROOT; };
+		331CD5CAECC84EEC949A123F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_geometry.hpp; path = include/geometries/es2_geometry.hpp; sourceTree = SOURCE_ROOT; };
+		35580B976D24492A9A2EE551 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/textured_plane_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textured_plane_test.cpp; path = tests/textured_plane_test.cpp; sourceTree = SOURCE_ROOT; };
+		358187832C614805851EF43D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shader.hpp; path = include/renderer/shader.hpp; sourceTree = SOURCE_ROOT; };
+		38B8927912DC4CDC97F18960 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = aur.hpp; path = include/aur.hpp; sourceTree = SOURCE_ROOT; };
+		3ADDF3EDAF7E4F11A02C45EE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_constant_material.hpp; path = include/materials/es2_constant_material.hpp; sourceTree = SOURCE_ROOT; };
+		3E6130B7F7054EBC83BBED83 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = texture.hpp; path = include/textures/texture.hpp; sourceTree = SOURCE_ROOT; };
+		3ECDE3BEAF09481AAF137DD8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sdl_window.hpp; path = include/window/sdl_window.hpp; sourceTree = SOURCE_ROOT; };
+		42425EC1D46D4B708A638D9C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_constant_material.hpp; path = include/materials/es2_constant_material.hpp; sourceTree = SOURCE_ROOT; };
+		4339DADA316C4873AC74B5AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scene.hpp; path = include/scene/scene.hpp; sourceTree = SOURCE_ROOT; };
+		44011DED84CD4B39879852E6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometry_generators.hpp; path = include/geometries/geometry_generators.hpp; sourceTree = SOURCE_ROOT; };
+		489A170675954FA29FC1F2A7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_phong_material.hpp; path = include/materials/es2_phong_material.hpp; sourceTree = SOURCE_ROOT; };
+		489B88DB2BF742B7A4088482 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/window_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window_test.cpp; path = tests/window_test.cpp; sourceTree = SOURCE_ROOT; };
+		49D9894E763D4E878DF4F57F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = window.hpp; path = include/window/window.hpp; sourceTree = SOURCE_ROOT; };
+		54E75D744EEC4462BE06FB29 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_phong_material.hpp; path = include/materials/es2_phong_material.hpp; sourceTree = SOURCE_ROOT; };
+		56B28ABF37954B8FB86041E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/material_properties_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = material_properties_test.cpp; path = tests/material_properties_test.cpp; sourceTree = SOURCE_ROOT; };
+		571334EA310C4861B66E04A5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_texture.hpp; path = include/textures/es2_texture.hpp; sourceTree = SOURCE_ROOT; };
+		572567F18FE440BEA842569C /* window_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = window_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B102A7A34F34BC1B857EEA6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/objects/camera.hpp; sourceTree = SOURCE_ROOT; };
+		5C4B1D45A0284439A66488A6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = scene.hpp; path = include/scene/scene.hpp; sourceTree = SOURCE_ROOT; };
+		6480B309E7414925833FF3FD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = texture.hpp; path = include/textures/texture.hpp; sourceTree = SOURCE_ROOT; };
+		6B08F03B69644DE09853BD1D /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B3BE8A11AD04821B7AD6806 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = phong_material.hpp; path = include/materials/phong_material.hpp; sourceTree = SOURCE_ROOT; };
+		6DBDB39941C548338DBB02A8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_phong_material.hpp; path = include/materials/es2_phong_material.hpp; sourceTree = SOURCE_ROOT; };
+		769AD76E3C11490FA8F32E88 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_renderer.hpp; path = include/renderer/es2_renderer.hpp; sourceTree = SOURCE_ROOT; };
+		7754A83F5FB645889C817C34 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = aur.hpp; path = include/aur.hpp; sourceTree = SOURCE_ROOT; };
+		79231B0EC0A74076A96C4D61 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = object.hpp; path = include/objects/object.hpp; sourceTree = SOURCE_ROOT; };
+		7B0D4F8C79064032B8151795 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vertex.hpp; path = include/geometries/vertex.hpp; sourceTree = SOURCE_ROOT; };
+		8048D7D20ECA463CAB035940 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mesh.hpp; path = include/objects/mesh.hpp; sourceTree = SOURCE_ROOT; };
+		80871CFE06614C4BB463812A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_texture.hpp; path = include/textures/es2_texture.hpp; sourceTree = SOURCE_ROOT; };
+		861CA03AAE0E4737940363C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = aur.hpp; path = include/aur.hpp; sourceTree = SOURCE_ROOT; };
+		86C45A478BA64BFB8ADC8CBC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_sdl.h; path = include/vendor/imgui_impl_sdl.h; sourceTree = SOURCE_ROOT; };
+		89930283E368414D8880CBC8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = light.hpp; path = include/lights/light.hpp; sourceTree = SOURCE_ROOT; };
+		8ACCC115ABA14D629E51C07E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometry.hpp; path = include/geometries/geometry.hpp; sourceTree = SOURCE_ROOT; };
+		8F84ED3BB2894929A5A4E7C5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = shader.hpp; path = include/renderer/shader.hpp; sourceTree = SOURCE_ROOT; };
+		8FF94277811844EC95463A08 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sdl_window.hpp; path = include/window/sdl_window.hpp; sourceTree = SOURCE_ROOT; };
+		917444ADC61442C181EF9672 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = directional_light.hpp; path = include/lights/directional_light.hpp; sourceTree = SOURCE_ROOT; };
+		937D2DAFAA0244C0A37386C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vertex.hpp; path = include/geometries/vertex.hpp; sourceTree = SOURCE_ROOT; };
+		938301B0B15C4D9DAE70B685 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mesh.hpp; path = include/objects/mesh.hpp; sourceTree = SOURCE_ROOT; };
+		9CA9ED04399B4282B96B90F3 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_opengl.h; path = include/vendor/imgui_impl_opengl.h; sourceTree = SOURCE_ROOT; };
+		9E9CB343E8264A498C6E95AC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = point_light.hpp; path = include/lights/point_light.hpp; sourceTree = SOURCE_ROOT; };
+		A31CD14280A749A19578C110 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mesh.hpp; path = include/objects/mesh.hpp; sourceTree = SOURCE_ROOT; };
+		A3908919FAB44472B4CB9947 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = vertex.hpp; path = include/geometries/vertex.hpp; sourceTree = SOURCE_ROOT; };
+		A46B43FF42304B2D8210C6C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = renderer.hpp; path = include/renderer/renderer.hpp; sourceTree = SOURCE_ROOT; };
+		A7528518D5A34E9CA79D781B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = material.hpp; path = include/materials/material.hpp; sourceTree = SOURCE_ROOT; };
+		A80AF79339644FFC882AC5EF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometry_generators.hpp; path = include/geometries/geometry_generators.hpp; sourceTree = SOURCE_ROOT; };
+		A93EAE3A821F4A83A0D0073A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = spot_light.hpp; path = include/lights/spot_light.hpp; sourceTree = SOURCE_ROOT; };
+		B4C04D1BDD4947F08730B023 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ambient_light.hpp; path = include/lights/ambient_light.hpp; sourceTree = SOURCE_ROOT; };
+		B6C39ED1182A415C8021690E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = object.hpp; path = include/objects/object.hpp; sourceTree = SOURCE_ROOT; };
+		B7ED42A83EDD4EA9887F788B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ambient_light.hpp; path = include/lights/ambient_light.hpp; sourceTree = SOURCE_ROOT; };
+		B90F25DC22E84D7BBABB2FB7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_sdl.h; path = include/vendor/imgui_impl_sdl.h; sourceTree = SOURCE_ROOT; };
+		BBBC7667DB1F479592C6812B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = light.hpp; path = include/lights/light.hpp; sourceTree = SOURCE_ROOT; };
+		BF703AB1FDCA446E999EEDEF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_shader.hpp; path = include/renderer/es2_shader.hpp; sourceTree = SOURCE_ROOT; };
+		C17D7DA393904D778DB186E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = material.hpp; path = include/materials/material.hpp; sourceTree = SOURCE_ROOT; };
+		C5AAB9B81C174C2E9139F4B5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_geometry.hpp; path = include/geometries/es2_geometry.hpp; sourceTree = SOURCE_ROOT; };
+		C84638E3E1B34BDB8690E3E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = camera.hpp; path = include/objects/camera.hpp; sourceTree = SOURCE_ROOT; };
+		CED0ED5F41864362A0C6E913 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_shader.hpp; path = include/renderer/es2_shader.hpp; sourceTree = SOURCE_ROOT; };
+		D026B781659C454D89EC5534 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D1A378F6A4434064B82FD3EE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_opengl.h; path = include/vendor/imgui_impl_opengl.h; sourceTree = SOURCE_ROOT; };
+		D28576DEE58C4C3A8E82FE49 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = constant_material.hpp; path = include/materials/constant_material.hpp; sourceTree = SOURCE_ROOT; };
+		D77B839A06014BC0A5D91D1E /* textured_plane_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = textured_plane_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B50B76348D493D8D660B21 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = window.hpp; path = include/window/window.hpp; sourceTree = SOURCE_ROOT; };
+		D8AB9CDBDEB747D48B517C07 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = object.hpp; path = include/objects/object.hpp; sourceTree = SOURCE_ROOT; };
+		E4802FA844DC4EC48C27312A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = sdl_window.hpp; path = include/window/sdl_window.hpp; sourceTree = SOURCE_ROOT; };
+		E792698E8737433D849DD301 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometry.hpp; path = include/geometries/geometry.hpp; sourceTree = SOURCE_ROOT; };
+		EC4192DD00D04E0ABE95BF8C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = es2_renderer.hpp; path = include/renderer/es2_renderer.hpp; sourceTree = SOURCE_ROOT; };
+		ECB5C15E7B974B3285F837EC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utilities.hpp; path = include/utilities/utilities.hpp; sourceTree = SOURCE_ROOT; };
+		F34AC810AE604D7ABCAF73F0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = utilities.hpp; path = include/utilities/utilities.hpp; sourceTree = SOURCE_ROOT; };
+		F50FEE3A1B294FCC8EA4774E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = geometry_generators.hpp; path = include/geometries/geometry_generators.hpp; sourceTree = SOURCE_ROOT; };
+		F6C4A1F9796B4A11A078B6D4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = spot_light.hpp; path = include/lights/spot_light.hpp; sourceTree = SOURCE_ROOT; };
+		F85735708E744BA6ADDB4ED7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FA2127BEE7444F8AB529A199 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imgui_impl_sdl.h; path = include/vendor/imgui_impl_sdl.h; sourceTree = SOURCE_ROOT; };
+		FD942816A7924D5E8ED45303 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = point_light.hpp; path = include/lights/point_light.hpp; sourceTree = SOURCE_ROOT; };
+		FFDC2256FB354C8594AC8F67 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = light.hpp; path = include/lights/light.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0A59CE5AE4C8417D8CDF722B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				41B27885E4D340F59A10A0D0 /* CMake Rules */,
+				F85735708E744BA6ADDB4ED7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		12252790BF314FF9A18C56BA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				489B88DB2BF742B7A4088482 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/window_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		14255EDFF2A543C38519FA9B /* window_test */ = {
+			isa = PBXGroup;
+			children = (
+				E4C0133487014276A48BBF71 /* Header Files */,
+				12252790BF314FF9A18C56BA /* Source Files */,
+				6B08F03B69644DE09853BD1D /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */,
+			);
+			name = window_test;
+			sourceTree = "<group>";
+		};
+		3F9D8C5B5038495AA045C0AE = {
+			isa = PBXGroup;
+			children = (
+				4226E08173F64245928147CF /* textured_plane_test */,
+				BC2FA6EE71A048FFBA3EE957 /* material_properties_test */,
+				14255EDFF2A543C38519FA9B /* window_test */,
+				0A59CE5AE4C8417D8CDF722B /* ALL_BUILD */,
+				BD96E3A7FF4444E9978D4914 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B27885E4D340F59A10A0D0 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		4226E08173F64245928147CF /* textured_plane_test */ = {
+			isa = PBXGroup;
+			children = (
+				CD3EAA887EE344F0A64A5A06 /* Header Files */,
+				7262BC612D3C412FA5B2F7BD /* Source Files */,
+				D026B781659C454D89EC5534 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */,
+			);
+			name = textured_plane_test;
+			sourceTree = "<group>";
+		};
+		7262BC612D3C412FA5B2F7BD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				35580B976D24492A9A2EE551 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/textured_plane_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		ADF1DE53C89C47A7A2A38146 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				38B8927912DC4CDC97F18960 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */,
+				C5AAB9B81C174C2E9139F4B5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */,
+				8ACCC115ABA14D629E51C07E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */,
+				A80AF79339644FFC882AC5EF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */,
+				A3908919FAB44472B4CB9947 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */,
+				B7ED42A83EDD4EA9887F788B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */,
+				917444ADC61442C181EF9672 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */,
+				FFDC2256FB354C8594AC8F67 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */,
+				142CF911753C4310B865057A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */,
+				A93EAE3A821F4A83A0D0073A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */,
+				20EE00448C474910BA79AC3C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */,
+				3ADDF3EDAF7E4F11A02C45EE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */,
+				6DBDB39941C548338DBB02A8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */,
+				13F517794E2D4DCDA0D689AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */,
+				0532F53F09E54091B9E981A0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */,
+				5B102A7A34F34BC1B857EEA6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */,
+				938301B0B15C4D9DAE70B685 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */,
+				79231B0EC0A74076A96C4D61 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */,
+				769AD76E3C11490FA8F32E88 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */,
+				CED0ED5F41864362A0C6E913 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */,
+				292458E61AD047A18A89B4D0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */,
+				1813372E3CBA42F5B6A4B143 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */,
+				4339DADA316C4873AC74B5AA /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */,
+				571334EA310C4861B66E04A5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */,
+				6480B309E7414925833FF3FD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */,
+				F34AC810AE604D7ABCAF73F0 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */,
+				134E73EE478442DA99111818 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */,
+				86C45A478BA64BFB8ADC8CBC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */,
+				3ECDE3BEAF09481AAF137DD8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */,
+				D7B50B76348D493D8D660B21 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BC2FA6EE71A048FFBA3EE957 /* material_properties_test */ = {
+			isa = PBXGroup;
+			children = (
+				ADF1DE53C89C47A7A2A38146 /* Header Files */,
+				D69563FB69B14D1886EBA255 /* Source Files */,
+				06D6BA7931BC43C2A5990590 /* /Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt */,
+			);
+			name = material_properties_test;
+			sourceTree = "<group>";
+		};
+		BD96E3A7FF4444E9978D4914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2885F19AC9A34EC49F340E62 /* material_properties_test */,
+				D77B839A06014BC0A5D91D1E /* textured_plane_test */,
+				572567F18FE440BEA842569C /* window_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3EAA887EE344F0A64A5A06 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				861CA03AAE0E4737940363C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */,
+				331CD5CAECC84EEC949A123F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */,
+				E792698E8737433D849DD301 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */,
+				F50FEE3A1B294FCC8EA4774E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */,
+				937D2DAFAA0244C0A37386C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */,
+				1058B1C8EFBA49C2A42FEFCE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */,
+				24434DCF8B6D4EA48A279808 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */,
+				89930283E368414D8880CBC8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */,
+				9E9CB343E8264A498C6E95AC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */,
+				270D58373B97414F89C8CA98 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */,
+				D28576DEE58C4C3A8E82FE49 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */,
+				189E69807E1A402C875A440C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */,
+				54E75D744EEC4462BE06FB29 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */,
+				C17D7DA393904D778DB186E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */,
+				6B3BE8A11AD04821B7AD6806 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */,
+				2CCEBC8D729E40988EF9386E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */,
+				8048D7D20ECA463CAB035940 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */,
+				D8AB9CDBDEB747D48B517C07 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */,
+				0564A1E93A37435FAB7C375D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */,
+				BF703AB1FDCA446E999EEDEF /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */,
+				0165A48A4A3E4C3CA840EAED /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */,
+				8F84ED3BB2894929A5A4E7C5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */,
+				5C4B1D45A0284439A66488A6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */,
+				80871CFE06614C4BB463812A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */,
+				05F6AA2D13854A87A52AC503 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */,
+				0A5CEDE26F644DFCB0C9596D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */,
+				9CA9ED04399B4282B96B90F3 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */,
+				B90F25DC22E84D7BBABB2FB7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */,
+				E4802FA844DC4EC48C27312A /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */,
+				49D9894E763D4E878DF4F57F /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		D69563FB69B14D1886EBA255 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B28ABF37954B8FB86041E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/material_properties_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E4C0133487014276A48BBF71 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7754A83F5FB645889C817C34 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp */,
+				1AAE03D44C004BA3BD15FBA8 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp */,
+				14C70499CBFB41E7B854EA30 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp */,
+				44011DED84CD4B39879852E6 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp */,
+				7B0D4F8C79064032B8151795 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp */,
+				B4C04D1BDD4947F08730B023 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp */,
+				2EC700DAB253458C966018DD /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp */,
+				BBBC7667DB1F479592C6812B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp */,
+				FD942816A7924D5E8ED45303 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp */,
+				F6C4A1F9796B4A11A078B6D4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp */,
+				1429C824C19747FE8F3095A5 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp */,
+				42425EC1D46D4B708A638D9C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp */,
+				489A170675954FA29FC1F2A7 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp */,
+				A7528518D5A34E9CA79D781B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp */,
+				08A98722C2364F5FAC96489E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp */,
+				C84638E3E1B34BDB8690E3E4 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp */,
+				A31CD14280A749A19578C110 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp */,
+				B6C39ED1182A415C8021690E /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp */,
+				EC4192DD00D04E0ABE95BF8C /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp */,
+				3149CE3419264391A42FB651 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp */,
+				A46B43FF42304B2D8210C6C2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp */,
+				358187832C614805851EF43D /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp */,
+				30939F6E675B49F4B663B27B /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp */,
+				1DDA12A5E36D49008A55A356 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp */,
+				3E6130B7F7054EBC83BBED83 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp */,
+				ECB5C15E7B974B3285F837EC /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp */,
+				D1A378F6A4434064B82FD3EE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h */,
+				FA2127BEE7444F8AB529A199 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h */,
+				8FF94277811844EC95463A08 /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp */,
+				0E1E64286A3E4AA0AB9CA2CE /* /Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36843C49E0B84668BD060512 /* window_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 207B9CD96BF249889A0FE145 /* Build configuration list for PBXNativeTarget "window_test" */;
+			buildPhases = (
+				CBAE64FE9F034EE8A08C8A02 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7AC696533474565ACAE07CF /* PBXTargetDependency */,
+			);
+			name = window_test;
+			productName = window_test;
+			productReference = 572567F18FE440BEA842569C /* window_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		65F9CB4A21244DA7B3C81C63 /* textured_plane_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19494E572D134CDD81A1D014 /* Build configuration list for PBXNativeTarget "textured_plane_test" */;
+			buildPhases = (
+				6032AF95C2EE4D79AC0C20A3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DB2E17431D421AB43560DE /* PBXTargetDependency */,
+			);
+			name = textured_plane_test;
+			productName = textured_plane_test;
+			productReference = D77B839A06014BC0A5D91D1E /* textured_plane_test */;
+			productType = "com.apple.product-type.tool";
+		};
+		E39A721BCD2E42899B9B8F4C /* material_properties_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B42C018C7F4DDEA0DC6BE5 /* Build configuration list for PBXNativeTarget "material_properties_test" */;
+			buildPhases = (
+				B13F44070A16404BA7443193 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FA9171042840F3837C6E1E /* PBXTargetDependency */,
+			);
+			name = material_properties_test;
+			productName = material_properties_test;
+			productReference = 2885F19AC9A34EC49F340E62 /* material_properties_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D529449CAE45B19FCC3742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 8B6E0856314F4E839C454345 /* Build configuration list for PBXProject "aur" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8AEC515EF54A405DADAFA314 /* Debug */,
+				941796A6BD8E4C1994B85D52 /* Release */,
+				064768FA99A841C99C928307 /* MinSizeRel */,
+				5D5D704C1349451F84178A14 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3F9D8C5B5038495AA045C0AE;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				9D2C6C3AA07B44FEB33F6AD0 /* ALL_BUILD */,
+				EE5283FAE71342649B9177D0 /* ZERO_CHECK */,
+				E39A721BCD2E42899B9B8F4C /* material_properties_test */,
+				65F9CB4A21244DA7B3C81C63 /* textured_plane_test */,
+				36843C49E0B84668BD060512 /* window_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44B2FDDE243B4F5C8A2CE254 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/my\\ mac/graphics.com391/Labs/lab08/build -f /Users/mac/my\\ mac/graphics.com391/Labs/lab08/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4532D40C04534B1A841B3854 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		52177A2EBC20494C981F505C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9A8B445322B3448D9A3C70E7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mac/my\\ mac/graphics.com391/Labs/lab08/build -f /Users/mac/my\\ mac/graphics.com391/Labs/lab08/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6032AF95C2EE4D79AC0C20A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E4E9E351624C6B909F9F1D /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/textured_plane_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13F44070A16404BA7443193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2908D7C8DB741168DE2F0A2 /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/material_properties_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE64FE9F034EE8A08C8A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDFAFB3C4AF44E79216FE2A /* /Users/mac/my mac/graphics.com391/Labs/lab08/tests/window_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FA9171042840F3837C6E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5283FAE71342649B9177D0 /* ZERO_CHECK */;
+			targetProxy = 1837F7AA50AA48CDB6AEC8C4 /* PBXContainerItemProxy */;
+		};
+		3AF319005394467EAE154A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36843C49E0B84668BD060512 /* window_test */;
+			targetProxy = 0F38C17233B64440B2E4B270 /* PBXContainerItemProxy */;
+		};
+		3F3A99FD47C94E509F440466 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5283FAE71342649B9177D0 /* ZERO_CHECK */;
+			targetProxy = 00FFB335E76441B980CBCCB2 /* PBXContainerItemProxy */;
+		};
+		66B71F09DFEC444CBAD03C3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E39A721BCD2E42899B9B8F4C /* material_properties_test */;
+			targetProxy = 496906E838CD4F3FB24CA8AD /* PBXContainerItemProxy */;
+		};
+		6AFA3FE306404107A9E24FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65F9CB4A21244DA7B3C81C63 /* textured_plane_test */;
+			targetProxy = 7129B2756BC144CE84141587 /* PBXContainerItemProxy */;
+		};
+		B3DB2E17431D421AB43560DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5283FAE71342649B9177D0 /* ZERO_CHECK */;
+			targetProxy = 73E0120FC8574AE5B1F6E5D3 /* PBXContainerItemProxy */;
+		};
+		B7AC696533474565ACAE07CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE5283FAE71342649B9177D0 /* ZERO_CHECK */;
+			targetProxy = 261E662322114B73AEB2D6F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		020B68D77CE644B295B9A28E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		08E8D4CB8D754EA196B5FE12 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		13E714844F2B4DDC8E9C3F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/build";
+			};
+			name = Debug;
+		};
+		2710096FD4234A299CCF8EF3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = material_properties_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		301B5689B8174D929FE1DC81 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = textured_plane_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3877B5C47BCC4757A8A9A7FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = window_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3A40D43E20B94A39A8C15822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = material_properties_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3B60EEE6801E4E7D993771D5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		65923C2978124058B56427F2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "          -DNDEBUG -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = material_properties_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6EB8135375794722AA71459A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		91E55FAC48ED48EABB52AED6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "          -DNDEBUG -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = window_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		95165687C40A4D338E357B6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = window_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9B45309D9F86453E88D32246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9CDFFD61D40447F983E53C34 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "          -DNDEBUG -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = textured_plane_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A83AC5253D7046D0AAB7A3E0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B44AD4358B154FDEB5AE57B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BBF9265051304102BE0D1C07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BD0852240AD647D9ACB77EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = textured_plane_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BF16A25D239D4E5090C9ACE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = material_properties_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D8F919AF9B0B448E91DD20EC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/build";
+			};
+			name = MinSizeRel;
+		};
+		DA8BD5E47E164D53B72E5A28 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = window_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E4F1FF7AFFC04652BEBF36A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include,/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/include/SDL2,/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include,"/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include",/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include/SDL2,/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include,/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include,/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include,"\"/Users/mac/my mac/graphics.com391/Labs/lab08/./include\"");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = " /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/b407da7166ee9b3fc88c174823c6456344028b55/lib /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/lib /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/lib /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/lib /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/lib /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DLIBJPEG_STATIC '-std=gnu++1z'  ";
+				OTHER_LDFLAGS = "     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lSDL2_image -lGLEW -limgui -lSDL2main -lSDL2 -liconv -ljpeg -lpng16 -lwebpmux -lwebpdemux -lwebpdecoder -lwebp -lz -framework OpenGL -framework Cocoa -framework Carbon -framework IOKit -framework CoreVideo -framework CoreAudio -framework AudioToolbox -framework ForceFeedback";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = textured_plane_test;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E7B776C9F90C4F9A8EB83124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build/build";
+			};
+			name = Release;
+		};
+		F8AF3696FB934B6380274203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/mac/my mac/graphics.com391/Labs/lab08/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19494E572D134CDD81A1D014 /* Build configuration list for PBXNativeTarget "textured_plane_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F1FF7AFFC04652BEBF36A5 /* Debug */,
+				BD0852240AD647D9ACB77EED /* Release */,
+				301B5689B8174D929FE1DC81 /* MinSizeRel */,
+				9CDFFD61D40447F983E53C34 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		207B9CD96BF249889A0FE145 /* Build configuration list for PBXNativeTarget "window_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95165687C40A4D338E357B6F /* Debug */,
+				3877B5C47BCC4757A8A9A7FE /* Release */,
+				DA8BD5E47E164D53B72E5A28 /* MinSizeRel */,
+				91E55FAC48ED48EABB52AED6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		31B42C018C7F4DDEA0DC6BE5 /* Build configuration list for PBXNativeTarget "material_properties_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF16A25D239D4E5090C9ACE8 /* Debug */,
+				3A40D43E20B94A39A8C15822 /* Release */,
+				2710096FD4234A299CCF8EF3 /* MinSizeRel */,
+				65923C2978124058B56427F2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6FBD94D6DA6844F891B4F5F0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B45309D9F86453E88D32246 /* Debug */,
+				B44AD4358B154FDEB5AE57B8 /* Release */,
+				3B60EEE6801E4E7D993771D5 /* MinSizeRel */,
+				6EB8135375794722AA71459A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B6E0856314F4E839C454345 /* Build configuration list for PBXProject "aur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E714844F2B4DDC8E9C3F1B /* Debug */,
+				E7B776C9F90C4F9A8EB83124 /* Release */,
+				D8F919AF9B0B448E91DD20EC /* MinSizeRel */,
+				A83AC5253D7046D0AAB7A3E0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCE7FC324C9F4BCAA076C5F2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8AF3696FB934B6380274203 /* Debug */,
+				BBF9265051304102BE0D1C07 /* Release */,
+				020B68D77CE644B295B9A28E /* MinSizeRel */,
+				08E8D4CB8D754EA196B5FE12 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D529449CAE45B19FCC3742 /* Project object */;
+}

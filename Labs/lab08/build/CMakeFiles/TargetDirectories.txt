@@ -1,0 +1,5 @@
+/Users/mac/my mac/graphics.com391/Labs/lab08/build/CMakeFiles/textured_plane_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab08/build/CMakeFiles/material_properties_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab08/build/CMakeFiles/window_test.dir
+/Users/mac/my mac/graphics.com391/Labs/lab08/build/CMakeFiles/ALL_BUILD.dir
+/Users/mac/my mac/graphics.com391/Labs/lab08/build/CMakeFiles/ZERO_CHECK.dir

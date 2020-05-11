@@ -1,0 +1,47 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=11.0
+    os=Macos
+
+[requires]
+    glew/2.Y.Z
+    glm/0.9.9.5
+    imgui/1.Y.Z
+    sdl2/2.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=11.0
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    glew/2.1.0@bincrafters/stable:8e2e3059f283d3d138b85d022534c5632c4ffd1b
+    glm/0.9.9.5@g-truc/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    imgui/1.75:eec6acc43f6348a597c20e5bd28d9e0590a02597
+    sdl2/2.0.10@bincrafters/stable:f74366f76f700cc6e991285892ad7a23c30e6d47
+
+[full_options]
+    glew:shared=False
+    imgui:fPIC=True
+    imgui:shared=False
+    sdl2:fPIC=True
+    sdl2:iconv=False
+    sdl2:sdl2main=True
+    sdl2:shared=False
+
+[recipe_hash]
+
+
+[env]
+

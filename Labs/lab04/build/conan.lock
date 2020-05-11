@@ -1,0 +1,30 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=11.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": null,
+    "options": "glew:shared=False\nsdl2:fPIC=True\nsdl2:iconv=False\nsdl2:sdl2main=True\nsdl2:shared=False",
+    "requires": [
+     "1",
+     "2",
+     "3"
+    ],
+    "path": "/Users/mac/my mac/graphics.com391/Labs/lab04/conanfile.txt"
+   },
+   "1": {
+    "pref": "sdl2/2.0.10@bincrafters/stable#0:f74366f76f700cc6e991285892ad7a23c30e6d47#0",
+    "options": "fPIC=True\niconv=False\nsdl2main=True\nshared=False"
+   },
+   "2": {
+    "pref": "glew/2.1.0@bincrafters/stable#0:8e2e3059f283d3d138b85d022534c5632c4ffd1b#0",
+    "options": "shared=False"
+   },
+   "3": {
+    "pref": "glm/0.9.9.5@g-truc/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   }
+  }
+ },
+ "version": "0.3"
+}
