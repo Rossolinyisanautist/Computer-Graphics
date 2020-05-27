@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="aur" targetName="general_usage_test" />
+      <config projectName="aur" targetName="material_properties_test" />
+      <config projectName="aur" targetName="window_test" />
+      <config projectName="aur" targetName="textured_plane_test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="06ad5963-cbcd-4b2e-853e-2369fa2ac4f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Labs/lab08/.idea/lab08.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/.idea/aur.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/data/images/texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/data/images/texture_normals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/imgui.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aur/tests/normal_mapping_test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/doom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/images/heads.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Monster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab04/build/aur.build/Debug/aur.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab04/build/aur.build/Debug/aur.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab04/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab04/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab05/build/aur.build/Debug/aur.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab05/build/aur.build/Debug/aur.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab05/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab05/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab08/build/aur.build/Debug/textured_plane_test.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab08/build/aur.build/Debug/textured_plane_test.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ConanProjectSettings">
+    <option name="profileMapping">
+      <map>
+        <entry>
+          <key>
+            <CMakeProfile>
+              <option name="name" value="Debug" />
+              <option name="targetDir" value="$PROJECT_DIR$/cmake-build-debug" />
+            </CMakeProfile>
+          </key>
+          <value>
+            <ConanProfile>
+              <option name="name" value="default" />
+            </ConanProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1cVSqdzBSfINcGTlkFIfh2wWzPT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="CMake Application.general_usage_test">
+    <configuration name="general_usage_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="general_usage_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="general_usage_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="material_properties_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="material_properties_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="material_properties_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textured_plane_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="textured_plane_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="textured_plane_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="window_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="window_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="window_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.general_usage_test" />
+      <item itemvalue="CMake Application.material_properties_test" />
+      <item itemvalue="CMake Application.textured_plane_test" />
+      <item itemvalue="CMake Application.window_test" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06ad5963-cbcd-4b2e-853e-2369fa2ac4f4" name="Default Changelist" comment="" />
+      <created>1590612460043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590612460043</updated>
+      <workItem from="1590612463303" duration="1200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590612502226">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590612502226" />
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590614069163">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069163" />
+    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590614069162">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069162" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590614069162">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069162" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590614069163">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069163" />
+  </component>
+</project>

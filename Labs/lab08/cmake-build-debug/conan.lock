@@ -1,0 +1,73 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=11.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "pref": null,
+    "options": "glew:shared=False\nimgui:fPIC=True\nimgui:shared=False\nlibiconv:fPIC=True\nlibiconv:shared=False\nlibjpeg:fPIC=True\nlibjpeg:shared=False\nlibpng:api_prefix=None\nlibpng:fPIC=True\nlibpng:shared=False\nlibwebp:fPIC=True\nlibwebp:near_lossless=True\nlibwebp:shared=False\nlibwebp:swap_16bit_csp=False\nlibwebp:with_simd=True\nsdl2:fPIC=True\nsdl2:iconv=True\nsdl2:sdl2main=True\nsdl2:shared=False\nsdl2_image:bmp=True\nsdl2_image:fPIC=True\nsdl2_image:gif=True\nsdl2_image:imageio=False\nsdl2_image:jpg=True\nsdl2_image:lbm=True\nsdl2_image:pcx=True\nsdl2_image:png=True\nsdl2_image:pnm=True\nsdl2_image:shared=False\nsdl2_image:svg=True\nsdl2_image:tga=True\nsdl2_image:tif=False\nsdl2_image:webp=True\nsdl2_image:xcf=True\nsdl2_image:xpm=True\nsdl2_image:xv=True\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "1",
+     "3",
+     "8",
+     "9",
+     "10"
+    ],
+    "path": "/Users/mac/my mac/graphics.com391/Labs/lab08/conanfile.txt"
+   },
+   "1": {
+    "pref": "sdl2/2.0.10@bincrafters/stable#0:f616f9b5a0baa5206386ecbf818542a65bd9a834#0",
+    "options": "fPIC=True\niconv=True\nsdl2main=True\nshared=False\nlibiconv:fPIC=True\nlibiconv:shared=False",
+    "requires": [
+     "2"
+    ]
+   },
+   "2": {
+    "pref": "libiconv/1.15#0:f74366f76f700cc6e991285892ad7a23c30e6d47#0",
+    "options": "fPIC=True\nshared=False"
+   },
+   "3": {
+    "pref": "sdl2_image/2.0.5@bincrafters/stable#0:8fb2a35f7d886821887948171de0711fa428c281#0b73f52650ee65ae23b73143e9286546",
+    "options": "bmp=True\nfPIC=True\ngif=True\nimageio=False\njpg=True\nlbm=True\npcx=True\npng=True\npnm=True\nshared=False\nsvg=True\ntga=True\ntif=False\nwebp=True\nxcf=True\nxpm=True\nxv=True\nlibiconv:fPIC=True\nlibiconv:shared=False\nlibjpeg:fPIC=True\nlibjpeg:shared=False\nlibpng:api_prefix=None\nlibpng:fPIC=True\nlibpng:shared=False\nlibwebp:fPIC=True\nlibwebp:near_lossless=True\nlibwebp:shared=False\nlibwebp:swap_16bit_csp=False\nlibwebp:with_simd=True\nsdl2:fPIC=True\nsdl2:iconv=True\nsdl2:sdl2main=True\nsdl2:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "1",
+     "4",
+     "5",
+     "7",
+     "6"
+    ]
+   },
+   "4": {
+    "pref": "libjpeg/9c#0:f74366f76f700cc6e991285892ad7a23c30e6d47#0",
+    "options": "fPIC=True\nshared=False"
+   },
+   "5": {
+    "pref": "libpng/1.6.37#0:eb50d18a5a5d59bd0c332464a4c348ab65e353bf#0",
+    "options": "api_prefix=None\nfPIC=True\nshared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": [
+     "6"
+    ]
+   },
+   "6": {
+    "pref": "zlib/1.2.11#0:f74366f76f700cc6e991285892ad7a23c30e6d47#0",
+    "options": "fPIC=True\nminizip=False\nshared=False"
+   },
+   "7": {
+    "pref": "libwebp/1.0.3#0:925627bb9faa4169b8ec3d0d66343ea8295547e5#0",
+    "options": "fPIC=True\nnear_lossless=True\nshared=False\nswap_16bit_csp=False\nwith_simd=True"
+   },
+   "8": {
+    "pref": "glew/2.1.0@bincrafters/stable#0:8e2e3059f283d3d138b85d022534c5632c4ffd1b#0",
+    "options": "shared=False"
+   },
+   "9": {
+    "pref": "glm/0.9.9.5@g-truc/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "10": {
+    "pref": "imgui/1.75#0:eec6acc43f6348a597c20e5bd28d9e0590a02597#0",
+    "options": "fPIC=True\nshared=False"
+   }
+  }
+ },
+ "version": "0.3"
+}

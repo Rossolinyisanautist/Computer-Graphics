@@ -1,0 +1,65 @@
+conan install "/Users/mac/my mac/graphics.com391/Labs/lab08" "-if=/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug" -pr=default
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=apple-clang
+compiler.libcxx=libc++
+compiler.version=11.0
+os=Macos
+os_build=Macos
+[options]
+[build_requires]
+[env]
+
+conanfile.txt: Installing package
+Requirements
+    glew/2.1.0@bincrafters/stable from 'conan-center' - Cache
+    glm/0.9.9.5@g-truc/stable from 'conan-center' - Cache
+    imgui/1.75 from 'conan-center' - Cache
+    libiconv/1.15 from 'conan-center' - Cache
+    libjpeg/9c from 'conan-center' - Cache
+    libpng/1.6.37 from 'conan-center' - Cache
+    libwebp/1.0.3 from 'conan-center' - Cache
+    sdl2/2.0.10@bincrafters/stable from 'bincrafters' - Cache
+    sdl2_image/2.0.5@bincrafters/stable from 'bincrafters' - Cache
+    zlib/1.2.11 from 'conan-center' - Cache
+Packages
+    glew/2.1.0@bincrafters/stable:8e2e3059f283d3d138b85d022534c5632c4ffd1b - Cache
+    glm/0.9.9.5@g-truc/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    imgui/1.75:eec6acc43f6348a597c20e5bd28d9e0590a02597 - Cache
+    libiconv/1.15:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+    libjpeg/9c:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+    libpng/1.6.37:eb50d18a5a5d59bd0c332464a4c348ab65e353bf - Cache
+    libwebp/1.0.3:925627bb9faa4169b8ec3d0d66343ea8295547e5 - Cache
+    sdl2/2.0.10@bincrafters/stable:f616f9b5a0baa5206386ecbf818542a65bd9a834 - Cache
+    sdl2_image/2.0.5@bincrafters/stable:8fb2a35f7d886821887948171de0711fa428c281 - Cache
+    zlib/1.2.11:f74366f76f700cc6e991285892ad7a23c30e6d47 - Cache
+
+glew/2.1.0@bincrafters/stable: Already installed!
+glm/0.9.9.5@g-truc/stable: Already installed!
+imgui/1.75: Already installed!
+libiconv/1.15: Already installed!
+libiconv/1.15: Appending PATH environment var: /Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/bin
+libjpeg/9c: Already installed!
+libwebp/1.0.3: Already installed!
+zlib/1.2.11: Already installed!
+libpng/1.6.37: Already installed!
+sdl2/2.0.10@bincrafters/stable: Already installed!
+sdl2/2.0.10@bincrafters/stable: Creating SDL2_CONFIG environment variable: /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/bin/sdl2-config
+sdl2/2.0.10@bincrafters/stable: Creating SDL_CONFIG environment variable: /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/bin/sdl2-config
+sdl2_image/2.0.5@bincrafters/stable: Already installed!
+conanfile.txt: Generator cmake created conanbuildinfo.cmake
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/mac/my mac/graphics.com391/Labs/lab08"
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Current conanbuildinfo.cmake directory: /Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="aur"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="textured_plane_test">
+				<Option output="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin/textured_plane_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include"/>
+					<Add directory="/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include"/>
+					<Add directory="/Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/my mac/graphics.com391/Labs/lab08/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 textured_plane_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="textured_plane_test/fast">
+				<Option output="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin/textured_plane_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include"/>
+					<Add directory="/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include"/>
+					<Add directory="/Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/my mac/graphics.com391/Labs/lab08/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 textured_plane_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="material_properties_test">
+				<Option output="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin/material_properties_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include"/>
+					<Add directory="/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include"/>
+					<Add directory="/Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/my mac/graphics.com391/Labs/lab08/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 material_properties_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="material_properties_test/fast">
+				<Option output="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin/material_properties_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include"/>
+					<Add directory="/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include"/>
+					<Add directory="/Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/my mac/graphics.com391/Labs/lab08/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 material_properties_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="window_test">
+				<Option output="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin/window_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include"/>
+					<Add directory="/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include"/>
+					<Add directory="/Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/my mac/graphics.com391/Labs/lab08/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 window_test"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="window_test/fast">
+				<Option output="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin/window_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/glew/2.1.0/bincrafters/stable/package/8e2e3059f283d3d138b85d022534c5632c4ffd1b/include"/>
+					<Add directory="/Users/mac/.conan/data/glm/0.9.9.5/g-truc/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include"/>
+					<Add directory="/Users/mac/.conan/data/imgui/1.75/_/_/package/eec6acc43f6348a597c20e5bd28d9e0590a02597/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include"/>
+					<Add directory="/Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2"/>
+					<Add directory="/Users/mac/.conan/data/libjpeg/9c/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/libpng/1.6.37/_/_/package/eb50d18a5a5d59bd0c332464a4c348ab65e353bf/include"/>
+					<Add directory="/Users/mac/.conan/data/libwebp/1.0.3/_/_/package/925627bb9faa4169b8ec3d0d66343ea8295547e5/include"/>
+					<Add directory="/Users/mac/.conan/data/libiconv/1.15/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/.conan/data/zlib/1.2.11/_/_/package/f74366f76f700cc6e991285892ad7a23c30e6d47/include"/>
+					<Add directory="/Users/mac/my mac/graphics.com391/Labs/lab08/./include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 window_test/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mac/my\ mac/graphics.com391/Labs/lab08/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/aur.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/es2_geometry.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/geometry_generators.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/geometries/vertex.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/ambient_light.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/directional_light.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/light.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/point_light.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/lights/spot_light.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/constant_material.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_constant_material.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/es2_phong_material.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/material.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/materials/phong_material.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/camera.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/mesh.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/objects/object.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_renderer.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/es2_shader.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/renderer.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/renderer/shader.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/scene/scene.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/es2_texture.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/textures/texture.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/utilities/utilities.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_opengl.h">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/vendor/imgui_impl_sdl.h">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/window/sdl_window.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/include/window/window.hpp">
+			<Option target="textured_plane_test"/>
+			<Option target="material_properties_test"/>
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/tests/material_properties_test.cpp">
+			<Option target="material_properties_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/tests/textured_plane_test.cpp">
+			<Option target="textured_plane_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/tests/window_test.cpp">
+			<Option target="window_test"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mac/my mac/graphics.com391/Labs/lab08/cmake-build-debug/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
