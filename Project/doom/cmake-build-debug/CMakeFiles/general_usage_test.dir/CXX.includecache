@@ -2556,21 +2556,33 @@ begin_code.h
 close_code.h
 /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2/close_code.h
 
-/Users/mac/my mac/graphics.com391/Project/doom/tests/Gun.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/monster.h
 aur.hpp
-/Users/mac/my mac/graphics.com391/Project/doom/tests/aur.hpp
+/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/aur.hpp
 
-/Users/mac/my mac/graphics.com391/Project/doom/tests/Monster.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/weapon.h
 aur.hpp
-/Users/mac/my mac/graphics.com391/Project/doom/tests/aur.hpp
+/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/aur.hpp
 
 /Users/mac/my mac/graphics.com391/Project/doom/tests/general_usage_test.cpp
 aur.hpp
 /Users/mac/my mac/graphics.com391/Project/doom/tests/aur.hpp
-Monster.h
-/Users/mac/my mac/graphics.com391/Project/doom/tests/Monster.h
-Gun.h
-/Users/mac/my mac/graphics.com391/Project/doom/tests/Gun.h
+entities/monster.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/monster.h
+entities/weapon.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/weapon.h
+objects/wall.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/wall.h
+objects/lamp.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/lamp.h
 chrono
 -
+
+/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/lamp.h
+aur.hpp
+/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/aur.hpp
+
+/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/wall.h
+aur.hpp
+/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/aur.hpp
 

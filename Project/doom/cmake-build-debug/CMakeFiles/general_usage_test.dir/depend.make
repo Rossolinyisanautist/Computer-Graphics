@@ -288,7 +288,9 @@ CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: /Users/mac/.co
 CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2/begin_code.h
 CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: /Users/mac/.conan/data/sdl2/2.0.10/bincrafters/stable/package/f616f9b5a0baa5206386ecbf818542a65bd9a834/include/SDL2/close_code.h
 CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2/SDL_image.h
-CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/Gun.h
-CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/Monster.h
+CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/entities/monster.h
+CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/entities/weapon.h
 CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/general_usage_test.cpp
+CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/objects/lamp.h
+CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o: ../tests/objects/wall.h
 

@@ -55,7 +55,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/general_usage_test.dir/DependInfo.cmake"
-  "CMakeFiles/textured_plane_test.dir/DependInfo.cmake"
-  "CMakeFiles/material_properties_test.dir/DependInfo.cmake"
-  "CMakeFiles/window_test.dir/DependInfo.cmake"
   )

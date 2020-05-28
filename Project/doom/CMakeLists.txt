@@ -41,14 +41,14 @@ set(AUR_SOURCES include/scene/scene.hpp
                 include/vendor/imgui_impl_opengl.h
                 include/window/sdl_window.hpp
                 include/utilities/utilities.hpp
-                include/aur.hpp)
+                include/aur.hpp tests/objects/wall.h tests/objects/lamp.h)
 
-add_executable(window_test ${AUR_SOURCES} tests/window_test.cpp)
-add_executable(material_properties_test ${AUR_SOURCES} tests/material_properties_test.cpp)
-add_executable(textured_plane_test ${AUR_SOURCES} tests/textured_plane_test.cpp)
-add_executable(general_usage_test ${AUR_SOURCES} tests/general_usage_test.cpp tests/Monster.h)
+#add_executable(window_test ${AUR_SOURCES} tests/window_test.cpp)
+#add_executable(material_properties_test ${AUR_SOURCES} tests/material_properties_test.cpp)
+#add_executable(textured_plane_test ${AUR_SOURCES} tests/textured_plane_test.cpp)
+add_executable(general_usage_test ${AUR_SOURCES} tests/general_usage_test.cpp tests/entities/monster.h tests/objects/wall.h)
 
-target_link_libraries(window_test ${CONAN_LIBS})
-target_link_libraries(material_properties_test ${CONAN_LIBS})
-target_link_libraries(textured_plane_test ${CONAN_LIBS})
+#target_link_libraries(window_test ${CONAN_LIBS})
+#target_link_libraries(material_properties_test ${CONAN_LIBS})
+#target_link_libraries(textured_plane_test ${CONAN_LIBS})
 target_link_libraries(general_usage_test ${CONAN_LIBS})

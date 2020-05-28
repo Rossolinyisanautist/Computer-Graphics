@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = "/Users/mac/my mac/graphics.com391/Project/doom/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -123,45 +123,6 @@ general_usage_test/fast:
 	$(MAKE) -f CMakeFiles/general_usage_test.dir/build.make CMakeFiles/general_usage_test.dir/build
 .PHONY : general_usage_test/fast
 
-#=============================================================================
-# Target rules for targets named textured_plane_test
-
-# Build rule for target.
-textured_plane_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 textured_plane_test
-.PHONY : textured_plane_test
-
-# fast build rule for target.
-textured_plane_test/fast:
-	$(MAKE) -f CMakeFiles/textured_plane_test.dir/build.make CMakeFiles/textured_plane_test.dir/build
-.PHONY : textured_plane_test/fast
-
-#=============================================================================
-# Target rules for targets named material_properties_test
-
-# Build rule for target.
-material_properties_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 material_properties_test
-.PHONY : material_properties_test
-
-# fast build rule for target.
-material_properties_test/fast:
-	$(MAKE) -f CMakeFiles/material_properties_test.dir/build.make CMakeFiles/material_properties_test.dir/build
-.PHONY : material_properties_test/fast
-
-#=============================================================================
-# Target rules for targets named window_test
-
-# Build rule for target.
-window_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 window_test
-.PHONY : window_test
-
-# fast build rule for target.
-window_test/fast:
-	$(MAKE) -f CMakeFiles/window_test.dir/build.make CMakeFiles/window_test.dir/build
-.PHONY : window_test/fast
-
 tests/general_usage_test.o: tests/general_usage_test.cpp.o
 
 .PHONY : tests/general_usage_test.o
@@ -189,111 +150,18 @@ tests/general_usage_test.cpp.s:
 	$(MAKE) -f CMakeFiles/general_usage_test.dir/build.make CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.s
 .PHONY : tests/general_usage_test.cpp.s
 
-tests/material_properties_test.o: tests/material_properties_test.cpp.o
-
-.PHONY : tests/material_properties_test.o
-
-# target to build an object file
-tests/material_properties_test.cpp.o:
-	$(MAKE) -f CMakeFiles/material_properties_test.dir/build.make CMakeFiles/material_properties_test.dir/tests/material_properties_test.cpp.o
-.PHONY : tests/material_properties_test.cpp.o
-
-tests/material_properties_test.i: tests/material_properties_test.cpp.i
-
-.PHONY : tests/material_properties_test.i
-
-# target to preprocess a source file
-tests/material_properties_test.cpp.i:
-	$(MAKE) -f CMakeFiles/material_properties_test.dir/build.make CMakeFiles/material_properties_test.dir/tests/material_properties_test.cpp.i
-.PHONY : tests/material_properties_test.cpp.i
-
-tests/material_properties_test.s: tests/material_properties_test.cpp.s
-
-.PHONY : tests/material_properties_test.s
-
-# target to generate assembly for a file
-tests/material_properties_test.cpp.s:
-	$(MAKE) -f CMakeFiles/material_properties_test.dir/build.make CMakeFiles/material_properties_test.dir/tests/material_properties_test.cpp.s
-.PHONY : tests/material_properties_test.cpp.s
-
-tests/textured_plane_test.o: tests/textured_plane_test.cpp.o
-
-.PHONY : tests/textured_plane_test.o
-
-# target to build an object file
-tests/textured_plane_test.cpp.o:
-	$(MAKE) -f CMakeFiles/textured_plane_test.dir/build.make CMakeFiles/textured_plane_test.dir/tests/textured_plane_test.cpp.o
-.PHONY : tests/textured_plane_test.cpp.o
-
-tests/textured_plane_test.i: tests/textured_plane_test.cpp.i
-
-.PHONY : tests/textured_plane_test.i
-
-# target to preprocess a source file
-tests/textured_plane_test.cpp.i:
-	$(MAKE) -f CMakeFiles/textured_plane_test.dir/build.make CMakeFiles/textured_plane_test.dir/tests/textured_plane_test.cpp.i
-.PHONY : tests/textured_plane_test.cpp.i
-
-tests/textured_plane_test.s: tests/textured_plane_test.cpp.s
-
-.PHONY : tests/textured_plane_test.s
-
-# target to generate assembly for a file
-tests/textured_plane_test.cpp.s:
-	$(MAKE) -f CMakeFiles/textured_plane_test.dir/build.make CMakeFiles/textured_plane_test.dir/tests/textured_plane_test.cpp.s
-.PHONY : tests/textured_plane_test.cpp.s
-
-tests/window_test.o: tests/window_test.cpp.o
-
-.PHONY : tests/window_test.o
-
-# target to build an object file
-tests/window_test.cpp.o:
-	$(MAKE) -f CMakeFiles/window_test.dir/build.make CMakeFiles/window_test.dir/tests/window_test.cpp.o
-.PHONY : tests/window_test.cpp.o
-
-tests/window_test.i: tests/window_test.cpp.i
-
-.PHONY : tests/window_test.i
-
-# target to preprocess a source file
-tests/window_test.cpp.i:
-	$(MAKE) -f CMakeFiles/window_test.dir/build.make CMakeFiles/window_test.dir/tests/window_test.cpp.i
-.PHONY : tests/window_test.cpp.i
-
-tests/window_test.s: tests/window_test.cpp.s
-
-.PHONY : tests/window_test.s
-
-# target to generate assembly for a file
-tests/window_test.cpp.s:
-	$(MAKE) -f CMakeFiles/window_test.dir/build.make CMakeFiles/window_test.dir/tests/window_test.cpp.s
-.PHONY : tests/window_test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... general_usage_test"
-	@echo "... edit_cache"
-	@echo "... textured_plane_test"
-	@echo "... material_properties_test"
 	@echo "... rebuild_cache"
-	@echo "... window_test"
+	@echo "... edit_cache"
+	@echo "... general_usage_test"
 	@echo "... tests/general_usage_test.o"
 	@echo "... tests/general_usage_test.i"
 	@echo "... tests/general_usage_test.s"
-	@echo "... tests/material_properties_test.o"
-	@echo "... tests/material_properties_test.i"
-	@echo "... tests/material_properties_test.s"
-	@echo "... tests/textured_plane_test.o"
-	@echo "... tests/textured_plane_test.i"
-	@echo "... tests/textured_plane_test.s"
-	@echo "... tests/window_test.o"
-	@echo "... tests/window_test.i"
-	@echo "... tests/window_test.s"
 .PHONY : help
 
 

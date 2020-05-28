@@ -11,10 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="aur" targetName="material_properties_test" />
       <config projectName="aur" targetName="general_usage_test" />
-      <config projectName="aur" targetName="window_test" />
-      <config projectName="aur" targetName="textured_plane_test" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -24,14 +21,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06ad5963-cbcd-4b2e-853e-2369fa2ac4f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/objects/lamp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/objects/wall.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/aur.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aur.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/general_usage_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/general_usage_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Monster.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Monster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Gun.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entities/weapon.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Monster.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entities/monster.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/general_usage_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/general_usage_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/material_properties_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/textured_plane_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/window_test.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,34 +86,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="CMake Application.general_usage_test">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/entities" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="general_usage_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="general_usage_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="general_usage_test">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="material_properties_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="material_properties_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="material_properties_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="textured_plane_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="textured_plane_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="textured_plane_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="window_test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="aur" TARGET_NAME="window_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="aur" RUN_TARGET_NAME="window_test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.general_usage_test" />
-      <item itemvalue="CMake Application.material_properties_test" />
-      <item itemvalue="CMake Application.textured_plane_test" />
-      <item itemvalue="CMake Application.window_test" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -117,6 +112,9 @@
       <updated>1590612460043</updated>
       <workItem from="1590612463303" duration="1200000" />
       <workItem from="1590615568347" duration="1072000" />
+      <workItem from="1590643908096" duration="6871000" />
+      <workItem from="1590663765872" duration="17000" />
+      <workItem from="1590664015105" duration="7170000" />
     </task>
     <servers />
   </component>
@@ -136,25 +134,49 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="439" y="189" key="#New_File_Extensions" timestamp="1590665922695">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="439" y="189" key="#New_File_Extensions/0.0.1680.1050@0.0.1680.1050" timestamp="1590665922695" />
     <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590612502226">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590612502226" />
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590641785376">
+    <state x="577" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590645742561">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785376" />
-    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590641785375">
+    <state x="577" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590645742561" />
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590676362009">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785375" />
-    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590641785375">
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362009" />
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608053" />
+    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590676362007">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785375" />
-    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590641785375">
+    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362007" />
+    <state width="1636" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608051" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590676362006">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785375" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362006" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608051" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590676362008">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362008" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608052" />
+    <state x="348" y="164" key="SettingsEditor" timestamp="1590669897496">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="348" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1590669897496" />
+    <state x="451" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590670828051">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="451" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1590670828051" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1590650783758">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590650783758" />
   </component>
 </project>
