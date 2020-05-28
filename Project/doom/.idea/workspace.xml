@@ -11,8 +11,8 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="aur" targetName="general_usage_test" />
       <config projectName="aur" targetName="material_properties_test" />
+      <config projectName="aur" targetName="general_usage_test" />
       <config projectName="aur" targetName="window_test" />
       <config projectName="aur" targetName="textured_plane_test" />
     </generated>
@@ -24,45 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06ad5963-cbcd-4b2e-853e-2369fa2ac4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Labs/lab08/.idea/lab08.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/.idea/aur.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/data/images/texture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/data/images/texture_normals.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/imgui.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aur/tests/normal_mapping_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/doom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/images/heads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Monster.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab04/build/aur.build/Debug/aur.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab04/build/aur.build/Debug/aur.build/dgph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab04/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab04/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab05/build/aur.build/Debug/aur.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab05/build/aur.build/Debug/aur.build/dgph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab05/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab05/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab08/build/aur.build/Debug/textured_plane_test.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab08/build/aur.build/Debug/textured_plane_test.build/dgph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab08/build/aur.xcodeproj/xcuserdata/mac.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/general_usage_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/general_usage_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Monster.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Monster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/general_usage_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/general_usage_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590612460043</updated>
       <workItem from="1590612463303" duration="1200000" />
+      <workItem from="1590615568347" duration="1072000" />
     </task>
     <servers />
   </component>
@@ -163,27 +133,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590612502226">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590612502226" />
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590614069163">
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590641785376">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069163" />
-    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590614069162">
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785376" />
+    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590641785375">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069162" />
-    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590614069162">
+    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785375" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590641785375">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069162" />
-    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590614069163">
+    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785375" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590641785375">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590614069163" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590641785375" />
   </component>
 </project>

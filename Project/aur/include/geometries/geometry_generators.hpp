@@ -117,8 +117,7 @@ namespace aur::geometry_generators
         return std::make_pair(indices, vertices);
     }
 
-    geometry_data_type
-    generate_sphere_geometry_data(float radius, unsigned int segment_count, unsigned int ring_count)
+    geometry_data_type generate_sphere_geometry_data(float radius, unsigned int segment_count, unsigned int ring_count)
     {
         std::vector<unsigned int> indices;
         std::vector<Vertex> vertices;

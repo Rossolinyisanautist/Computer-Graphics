@@ -19,6 +19,7 @@ int main(int argc, char** argv) {
 
     auto[plane1_indices, plane1_vertices] = geometry_generators::generate_sphere_geometry_data(10, 40, 40);
     auto plane1_geometry = std::make_shared<ES2Geometry>(plane1_indices, plane1_vertices);
+//    plane1_geometry->set_type(Geometry::TriangleFan);
     plane1_geometry->calc_tangents_and_binormals();
     auto plane1_material = std::make_shared<ES2PhongMaterial>();
     auto[image1_data, image1_width, image1_height, image1_channels] = file_utilities::read_image_file("data/images/texture.png");

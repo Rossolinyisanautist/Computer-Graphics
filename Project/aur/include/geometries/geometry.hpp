@@ -8,6 +8,7 @@
 #include <utility>
 
 #include <glm/glm.hpp>
+#include <iostream>
 
 namespace aur
 {
@@ -104,9 +105,13 @@ namespace aur
 
         // NORMAL MAPPING TASK
         void calc_tangents_and_binormals() {
-            if(!(_type == Triangles || _type == TriangleStrip || _type == TriangleFan)) {
+            if((_type != Triangles && _type != TriangleStrip && _type != TriangleFan)) {
+
                 return;
             }
+
+//            std::cerr << "Type: " << _type. << std::endl;
+//            exit(-1);
 
             for(auto &v : _vertices) {
                 v.tangent = glm::vec4(0.0f);
@@ -156,8 +161,12 @@ namespace aur
                 float t1 = b_texture_coordinates.t - a_texture_coordinates.t;
                 float t2 = c_texture_coordinates.t - a_texture_coordinates.t;
 
-                glm::vec3 tabgent = glm::normalize((q1 * t2) - (q2 * t1));
+                glm::vec3 tangent = glm::normalize((q1 * t2) - (q2 * t1));
                 glm::vec3 binormal = glm::normalize((q1 * -s2) + (q2 * s1));
+
+                a.tangent += glm::vec4(tangent, 0.0f);
+                b.tangent += glm::vec4(tangent, 0.0f);
+                c.tangent += glm::vec4(tangent, 0.0f);
 
                 a.binormal += binormal;
                 b.binormal += binormal;

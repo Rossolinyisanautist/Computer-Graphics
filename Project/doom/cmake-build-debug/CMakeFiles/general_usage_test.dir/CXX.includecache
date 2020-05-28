@@ -2556,9 +2556,21 @@ begin_code.h
 close_code.h
 /Users/mac/.conan/data/sdl2_image/2.0.5/bincrafters/stable/package/8fb2a35f7d886821887948171de0711fa428c281/include/SDL2/close_code.h
 
+/Users/mac/my mac/graphics.com391/Project/doom/tests/Gun.h
+aur.hpp
+/Users/mac/my mac/graphics.com391/Project/doom/tests/aur.hpp
+
+/Users/mac/my mac/graphics.com391/Project/doom/tests/Monster.h
+aur.hpp
+/Users/mac/my mac/graphics.com391/Project/doom/tests/aur.hpp
+
 /Users/mac/my mac/graphics.com391/Project/doom/tests/general_usage_test.cpp
 aur.hpp
 /Users/mac/my mac/graphics.com391/Project/doom/tests/aur.hpp
+Monster.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/Monster.h
+Gun.h
+/Users/mac/my mac/graphics.com391/Project/doom/tests/Gun.h
 chrono
 -
 
