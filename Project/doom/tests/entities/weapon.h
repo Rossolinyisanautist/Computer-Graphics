@@ -30,7 +30,7 @@ public:
         _set_texture_frames(sprite_frame_count);
         _set_first_shoot_frame(first_shoot_sprite_frame);
 
-        auto [overlay_indices, overlay_vertices] = geometry_generators::generate_plane_geometry_data(2, 2, 1, 1);
+        auto [overlay_indices, overlay_vertices] = geometry_generators::generate_plane_geometry_data(size, size, 1, 1);
         auto overlay_geometry = std::make_shared<ES2Geometry>(overlay_indices, overlay_vertices);
         auto overlay_material = std::make_shared<ES2ConstantMaterial>();
         overlay_material->set_texture_1(_texture);

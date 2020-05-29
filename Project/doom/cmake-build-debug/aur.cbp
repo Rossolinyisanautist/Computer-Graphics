@@ -208,16 +208,7 @@
 		<Unit filename="/Users/mac/my mac/graphics.com391/Project/doom/include/window/window.hpp">
 			<Option target="general_usage_test"/>
 		</Unit>
-		<Unit filename="/Users/mac/my mac/graphics.com391/Project/doom/tests/entities/monster.h">
-			<Option target="general_usage_test"/>
-		</Unit>
 		<Unit filename="/Users/mac/my mac/graphics.com391/Project/doom/tests/general_usage_test.cpp">
-			<Option target="general_usage_test"/>
-		</Unit>
-		<Unit filename="/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/lamp.h">
-			<Option target="general_usage_test"/>
-		</Unit>
-		<Unit filename="/Users/mac/my mac/graphics.com391/Project/doom/tests/objects/wall.h">
 			<Option target="general_usage_test"/>
 		</Unit>
 		<Unit filename="/Users/mac/my mac/graphics.com391/Project/doom/CMakeLists.txt">

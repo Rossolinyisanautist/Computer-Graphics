@@ -605,11 +605,18 @@ namespace aur
             float s2 = sinf(_rotation.y * 0.5f);
             float s3 = sinf(_rotation.z * 0.5f);
 
+//            _quaternion_rotation = glm::quat{
+//                    c1 * c2 * c3 - s1 * s2 * s3,
+//                    s1 * c2 * c3 + c1 * s2 * s3,
+//                    c1 * s2 * c3 - s1 * c2 * s3,
+//                    c1 * c2 * s3 + s1 * s2 * c3,
+//            };
+
             _quaternion_rotation = glm::quat{
-                c1 * c2 * c3 - s1 * s2 * s3,
-                s1 * c2 * c3 + c1 * s2 * s3,
-                c1 * s2 * c3 - s1 * c2 * s3,
-                c1 * c2 * s3 + s1 * s2 * c3,
+                c1 * c2 * c3 + s1 * s2 * s3,
+                c1 * s2 * c3 + s1 * c2 * s3,
+                s1 * c2 * c3 - c1 * s2 * s3,
+                c1 * c2 * s3 - s1 * s2 * c3,
             };
             _world_quaternion_rotation = _quaternion_rotation;
         }

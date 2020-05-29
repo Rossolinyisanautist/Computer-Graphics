@@ -21,7 +21,6 @@ set(AUR_SOURCES include/scene/scene.hpp
                 include/materials/es2_constant_material.hpp
                 include/materials/phong_material.hpp
                 include/materials/es2_phong_material.hpp
-                include/math/plane.hpp
                 include/math/ray.hpp
                 include/math/sphere.hpp
                 include/math/aabb.hpp
@@ -41,12 +40,13 @@ set(AUR_SOURCES include/scene/scene.hpp
                 include/vendor/imgui_impl_opengl.h
                 include/window/sdl_window.hpp
                 include/utilities/utilities.hpp
-                include/aur.hpp tests/objects/wall.h tests/objects/lamp.h)
+                include/aur.hpp
+                include/math/plane.hpp)
 
 #add_executable(window_test ${AUR_SOURCES} tests/window_test.cpp)
 #add_executable(material_properties_test ${AUR_SOURCES} tests/material_properties_test.cpp)
 #add_executable(textured_plane_test ${AUR_SOURCES} tests/textured_plane_test.cpp)
-add_executable(general_usage_test ${AUR_SOURCES} tests/general_usage_test.cpp tests/entities/monster.h tests/objects/wall.h)
+add_executable(general_usage_test ${AUR_SOURCES} tests/general_usage_test.cpp)
 
 #target_link_libraries(window_test ${CONAN_LIBS})
 #target_link_libraries(material_properties_test ${CONAN_LIBS})

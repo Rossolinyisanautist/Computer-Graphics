@@ -1,0 +1,7 @@
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/general_usage_test.dir
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/textured_plane_test.dir
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/material_properties_test.dir
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/normal_mapping_test.dir
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mac/my mac/graphics.com391/Project/norlams/cmake-build-debug/CMakeFiles/window_test.dir

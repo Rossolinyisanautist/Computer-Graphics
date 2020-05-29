@@ -16,9 +16,18 @@ static const int SPRITE_DYING_STARTING_FRAME{ 4 };
 static const int MONSTER_SIZE{6 };
 static const float MONSTER_MOVEMENT_SPEED{0.02f };
 
-static const std::string WALL_TEXTURE_FILE = "data/images/city.jpg";
-static const std::string FLOOR_TEXTURE_FILE = "data/images/city.jpg";
-static const std::string CEILING_TEXTURE_FILE = "data/images/city.jpg";
+static const float WALL_WIDTH = 50.0f;
+static const float WALL_HEIGHT = 12.5f;
+static const float WALL_Y_SHIFT = 3.75f;
+
+static const std::string WALL_TEXTURE_FILE = "data/images/WALL_4.png";
+static const std::string FLOOR_TEXTURE_FILE = "data/images/CEILING.png";
+static const std::string CEILING_TEXTURE_FILE = "data/images/CEILING.png";
+
+static const std::string WALL_TEXTURE_NORMALS_FILE = "data/images/texture_nosrmals.png";
+static const std::string FLOOR_TEXTURE_NORMALS_FILE = "data/images/texture_nosrmals.png";
+static const std::string CEILING_TEXTURE_NORMALS_FILE = "data/images/texture_nosrmals.png";
+
 
 const glm::vec4 FORWARD{0.0f, 0.0f, 1.0f, 0.0f};
 const glm::vec4 RIGHT{1.0f, 0.0f, 0.0f, 0.0f};
@@ -27,7 +36,7 @@ const glm::vec4 RIGHT{1.0f, 0.0f, 0.0f, 0.0f};
 int main(int argc, char **argv)
 {
     // Window
-    auto window = std::make_shared<SDLWindow>("DOOM", 1280, 720);
+    auto window = std::make_shared<SDLWindow>("DOOM (NOT) ETERNAL", 1280, 720);
     window->set_capture_mouse_enabled(true);
     window->set_relative_mouse_mode_enabled(true);
 
@@ -35,37 +44,37 @@ int main(int argc, char **argv)
     glm::mat4 texture1_transformation_matrix{ glm::vec4{15.0, 0.0, 0.0, 0.0}, glm::vec4{0.0, 15.0, 0.0, 0.0} ,
                                               glm::vec4{0.0, 0.0, 1.0, 0.0} , glm::vec4{0.0, 0.0, 0.0, 1.0} };
     auto floor = std::make_shared<Wall>(FLOOR_TEXTURE_FILE, glm::vec3(0.0f, -2.5f, 0.0f), 50, 50);
-    floor->set_rotation(glm::vec3(-M_PI / 2.0f, 0.0f, 0.0f));
+    floor->set_rotation(glm::vec3(.0f, -M_PI / 2.0f, 0.0f));
     floor->set_specular_exponent(1.0f);
-    floor->set_specular_color(glm::vec3{0.0f});
-    floor->set_diffuse_color(glm::vec4{0.25f});
+    floor->set_specular_color(glm::vec3{0.5f});
+    floor->set_diffuse_color(glm::vec4{0.5f});
     floor->set_transformation_matrix(texture1_transformation_matrix);
 
     // Walls
-    auto front_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(0.0f, 0.0f, -25.0f), 50, 20);
-    auto right_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(25.0f, 0.0f, 0.0f), 50, 20);
-    right_wall->set_rotation(glm::vec3(0.0f, -M_PI / 2.0f, 0.0f));
+    auto front_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(0.0f, WALL_Y_SHIFT, -25.0f), WALL_WIDTH, WALL_HEIGHT);
+    auto right_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(25.0f, WALL_Y_SHIFT, 0.0f), WALL_WIDTH, WALL_HEIGHT);
+    right_wall->set_rotation(glm::vec3(-M_PI / 2.0f, .0f, .0f));
 
-    auto left_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(-25.0f, 0.0f, 0.0f), 50, 20);
-    left_wall->set_rotation(glm::vec3(0.0f, M_PI / 2.0f, 0.0f));
+    auto left_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(-25.0f, WALL_Y_SHIFT, 0.0f), WALL_WIDTH, WALL_HEIGHT);
+    left_wall->set_rotation(glm::vec3(M_PI / 2.0f, .0f, .0f));
 
-    auto back_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(0.0f, 0.0f, 25.0f), 50, 20);
+    auto back_wall = std::make_shared<Wall>(WALL_TEXTURE_FILE, glm::vec3(0.0f, WALL_Y_SHIFT, 25.0f), WALL_WIDTH, WALL_HEIGHT);
     back_wall->set_rotation(glm::vec3(0.0f, -M_PI, 0.0f));
 
     auto ceiling = std::make_shared<Wall>(CEILING_TEXTURE_FILE, glm::vec3(0.0f, 10.0f, 0.0f), 50, 50);
-    ceiling->set_rotation(glm::vec3(M_PI / 2.0f, 0.0f, 0.0f));
+    ceiling->set_rotation(glm::vec3(0.0f, M_PI / 2.0f, 0.0f));
 
     // Monsters
-    auto monster_1 = std::make_shared<Monster>(glm::vec3(-5.0f, 1.0f, 2.0f), MONSTER_SIZE, MONSTER_MOVEMENT_SPEED,
+    auto monster_1 = std::make_shared<Monster>(glm::vec3(-15.0f, -.5f, 2.0f), MONSTER_SIZE, MONSTER_MOVEMENT_SPEED,
                                                std::make_tuple("data/images/heads.png", SPRITE_FRAMES, SPRITE_DYING_STARTING_FRAME));
-    auto monster_2 = std::make_shared<Monster>(glm::vec3(5.0f, 1.0f, 0.0f), MONSTER_SIZE, MONSTER_MOVEMENT_SPEED,
+    auto monster_2 = std::make_shared<Monster>(glm::vec3(5.0f, -.5f, 0.0f), MONSTER_SIZE, MONSTER_MOVEMENT_SPEED,
                                                std::make_tuple("data/images/heads.png", SPRITE_FRAMES, SPRITE_DYING_STARTING_FRAME));
-    auto monster_3 = std::make_shared<Monster>(glm::vec3(10.0f, 1.0f, 6.0f), MONSTER_SIZE, MONSTER_MOVEMENT_SPEED,
+    auto monster_3 = std::make_shared<Monster>(glm::vec3(10.0f, -.5f, 6.0f), MONSTER_SIZE, MONSTER_MOVEMENT_SPEED,
                                                std::make_tuple("data/images/heads.png", SPRITE_FRAMES, SPRITE_DYING_STARTING_FRAME));
 
     std::vector<std::shared_ptr<Monster>> enemies{monster_1, monster_2, monster_3 };
 
-    Weapon weapon{glm::vec3(0.0f, -2.0f, 0.0f), 3, std::make_tuple("data/images/guns.png", 6, 1) };
+     auto weapon = std::make_shared<Weapon>( glm::vec3(0.0f, -2.0f, 0.0f), 3, std::make_tuple("data/images/guns.png", 6, 1) );
 
     // Scene Objects
     std::vector<std::shared_ptr<Object>> objects{
@@ -73,10 +82,10 @@ int main(int argc, char **argv)
             monster_1->get_mesh(),
             monster_2->get_mesh(),
             monster_3->get_mesh(),
-            weapon.get_mesh(),
+            weapon->get_mesh(),
             front_wall->get_mesh(),
-            right_wall->get_mesh(),
             left_wall->get_mesh(),
+            right_wall->get_mesh(),
             back_wall->get_mesh(),
             ceiling->get_mesh()
     };
@@ -84,13 +93,13 @@ int main(int argc, char **argv)
 
     // Light
     auto lamp_obj_1 = std::make_shared<Lamp>(
-            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(-25.0f, 4.0f, -25.0f));
+            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(-25.0f, 0.0f, -25.0f));
     auto lamp_obj_2 = std::make_shared<Lamp>(
-            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(25.0f, 4.0f, -25.0f));
+            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(25.0f, 0.0f, -25.0f));
     auto lamp_obj_3 = std::make_shared<Lamp>(
-            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(25.0f, 4.0f, 25.0f));
+            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(25.0f, 0.0f, 25.0f));
     auto lamp_obj_4 = std::make_shared<Lamp>(
-            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(-25.0f, 4.0f, 25.0f));
+            0.2f, 4000.0f, 0.0f, 0.2f, 0.8f, true, glm::vec3(-25.0f, 0.0f, 25.0f));
 
     lamp_obj_3->make_child_of(scene);
     lamp_obj_2->make_child_of(scene);
@@ -124,8 +133,8 @@ int main(int argc, char **argv)
     });
 
     window->set_on_mouse_move([&](int x, int y, int x_rel, int y_rel) {
-//        camera->add_to_rotation_x(static_cast<float>(-y_rel)* CAMERA_SENSITIVITY);
-        camera->add_to_rotation_y(static_cast<float>(-x_rel)* CAMERA_SENSITIVITY);
+        camera->add_to_rotation_x(static_cast<float>(-x_rel)* CAMERA_SENSITIVITY);
+        camera->add_to_rotation_y(static_cast<float>(-y_rel)* CAMERA_SENSITIVITY);
     });
 
     window->set_on_mouse_down([&](int button, int x, int y) {
@@ -133,7 +142,7 @@ int main(int argc, char **argv)
         int cy = static_cast<int>(window->get_height() / 2);
         Ray ray = camera->world_ray_from_screen_point(cx, cy, static_cast<int>(window->get_width()), static_cast<int>(window->get_height()));
 
-        weapon.shoot_animation();
+        weapon->shoot_animation();
 
         for (auto &enemy : enemies) {
             if (enemy->intersects_with_ray(ray)) {
@@ -154,7 +163,7 @@ int main(int argc, char **argv)
         std::chrono::duration<float, std::milli> time_span = current_frame_time - prev_frame_time;
         float delta_time = time_span.count() / 1000.0f;
 
-        weapon.update();
+        weapon->update();
 
         for (auto &enemy : enemies) {
             enemy->update(delta_time);

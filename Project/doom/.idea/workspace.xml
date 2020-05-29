@@ -14,34 +14,174 @@
       <config projectName="aur" targetName="general_usage_test" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06ad5963-cbcd-4b2e-853e-2369fa2ac4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/objects/lamp.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/objects/wall.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab05/build/aur.build/Debug/aur.build/dgph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab05/build/aur.build/Debug/aur.build/dgph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/lab05/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/lab05/build/aur.xcodeproj/project.xcworkspace/xcuserdata/mac.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/.idea/aur.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/abai_normal_mapping.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/normal_mapping_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/material_properties_test.dir/tests/material_properties_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/normal_mapping_test.dir/tests/normal_mapping_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/textured_plane_test.dir/tests/textured_plane_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/CMakeFiles/window_test.dir/tests/window_test.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/aur.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/bin/general_usage_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/bin/material_properties_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/bin/normal_mapping_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/bin/textured_plane_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/bin/window_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/conan.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/conanbuildinfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/conanbuildinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/conaninfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/cmake-build-debug/graph_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/conanfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/bricks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/bricks_normals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/city.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/headb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/shtga0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/images/texture_normals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/shaders/es2_constant_shader.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/shaders/es2_constant_shader.vert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/shaders/es2_phong_shader.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/data/shaders/es2_phong_shader.vert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/imgui.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/aur.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/geometries/es2_geometry.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/geometries/geometry.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/geometries/geometry_generators.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/geometries/vertex.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/lights/ambient_light.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/lights/directional_light.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/lights/light.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/lights/point_light.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/lights/spot_light.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/materials/constant_material.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/materials/es2_constant_material.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/materials/es2_phong_material.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/materials/material.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/materials/phong_material.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/math/aabb.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/math/plane.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/math/ray.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/math/sphere.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/objects/camera.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/objects/mesh.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/objects/object.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/renderer/es2_renderer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/renderer/es2_shader.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/renderer/renderer.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/renderer/shader.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/scene/scene.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/textures/es2_texture.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/textures/texture.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/utilities/utilities.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/vendor/imgui_impl_opengl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/vendor/imgui_impl_sdl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/window/sdl_window.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/include/window/window.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/tests/general_usage_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/tests/material_properties_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/tests/normal_mapping_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/tests/textured_plane_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aur/tests/window_test.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/general_usage_test.dir/tests/general_usage_test.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/aur.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/aur.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bin/general_usage_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bin/general_usage_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Gun.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entities/weapon.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Monster.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entities/monster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/math/plane.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/math/plane.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/objects/object.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/objects/object.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/entities/weapon.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/entities/weapon.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/general_usage_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/general_usage_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/material_properties_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/textured_plane_test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/window_test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/objects/wall.h" beforeDir="false" afterPath="$PROJECT_DIR$/tests/objects/wall.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +254,11 @@
       <workItem from="1590615568347" duration="1072000" />
       <workItem from="1590643908096" duration="6871000" />
       <workItem from="1590663765872" duration="17000" />
-      <workItem from="1590664015105" duration="7170000" />
+      <workItem from="1590664015105" duration="12247000" />
+      <workItem from="1590722533592" duration="3879000" />
+      <workItem from="1590733510296" duration="329000" />
+      <workItem from="1590734296526" duration="32000" />
+      <workItem from="1590735431496" duration="396000" />
     </task>
     <servers />
   </component>
@@ -142,30 +286,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="303" y="186" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590612502226" />
-    <state x="577" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590645742561">
+    <state x="577" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590685531613">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="577" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590645742561" />
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590676362009">
+    <state x="577" y="278" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590685531613" />
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom" timestamp="1590737723198">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362009" />
-    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608053" />
-    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590676362007">
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1590737723198" />
+    <state width="1636" height="294" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590726087505" />
+    <state width="1636" height="294" key="GridCell.Tab.0.center" timestamp="1590737723197">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362007" />
-    <state width="1636" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608051" />
-    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590676362006">
+    <state width="1636" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1590737723197" />
+    <state width="1636" height="294" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590726087504" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left" timestamp="1590737723197">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362006" />
-    <state width="1636" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608051" />
-    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590676362008">
+    <state width="1636" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1590737723197" />
+    <state width="1636" height="294" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590726087503" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right" timestamp="1590737723198">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590676362008" />
-    <state width="1636" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590671608052" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1590737723198" />
+    <state width="1636" height="294" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590726087505" />
     <state x="348" y="164" key="SettingsEditor" timestamp="1590669897496">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -174,9 +318,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="451" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1590670828051" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1590650783758">
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1590688406688">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590650783758" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1590688406688" />
   </component>
 </project>

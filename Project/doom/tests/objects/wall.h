@@ -19,8 +19,8 @@ public:
     Wall(
             std::string texture,
             const glm::vec3 &position,
-            float width = 20.0f,
-            float height = 20.0f
+            float width = 10.0f,
+            float height = 10.0f
     ) {
 
         auto[plane1_indices, plane1_vertices] = geometry_generators::generate_plane_geometry_data(width, height,
@@ -44,6 +44,7 @@ public:
         _texture->set_transformation_matrix(texture_transformation_matrix);
 
         _material->set_texture_1(_texture);
+
         _material->set_specular_exponent(20.0f);
 
         _mesh = std::make_shared<Mesh>(_geometry, _material);
